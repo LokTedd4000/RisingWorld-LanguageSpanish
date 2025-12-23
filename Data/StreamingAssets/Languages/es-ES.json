@@ -168,12 +168,27 @@
         "barbarianhelmet": {
             "name": "Casco bárbaro"
         },
+        "bathrobe": {
+			"name": "Bata"
+		},
+        "bomberjacket": {
+			"name": "Chaqueta Bomber"
+		},
         "boonie": {
             "name": "Sombrero tipo boonie"
         },
+        "buckethat": {
+			"name": "Sombrero Pescador"
+		},
         "bunnymask": {
             "desc": "El accesorio perfecto para Pascua",
             "name": "Orejas de conejo"
+        },
+        "bunnyoutfit": {
+            "name": "Traje de Conejo"
+        },
+        "bunnyoutfit2": {
+            "name": "Traje de Conejo (sin capucha)"
         },
         "cappy": {
             "name": "Gorra"
@@ -184,8 +199,17 @@
         "captainhat": {
             "name": "Sombrero de capitán"
         },
+        "cargopants": {
+            "name": "Pantalones Cargo"
+        },
+        "cartoonwolfmask": {
+            "name": "Máscara de Lobo de Dibujos"
+        },
         "chefhat": {
             "name": "Gorro de chef"
+        },
+        "coif": {
+            "name": "Capucha de Malla"
         },
         "cowboyhat": {
             "desc": "Un sombrero de vaquero de ala ancha",
@@ -198,6 +222,9 @@
             "desc": "¡Espléndido!",
             "name": "Sombrero de copa"
         },
+        "dealwithitshades": {
+            "name": "Gafas \"Deal with it\""
+        },
         "divinggoggles": {
             "desc": "Parte del equipo de buceo que te permite ver con claridad bajo el agua",
             "name": "Máscara de buceo"
@@ -208,11 +235,24 @@
         "felthat": {
             "name": "Sombrero de fieltro"
         },
+        "femalecotte": {
+            "name": "Cotta femenina"
+        },
+        "femalegown": {
+            "name": "Vestido de gala"
+        },
         "fez": {
             "name": "Fez"
         },
+        "flippers": {
+            "desc": "Parte del equipo de buceo que permite moverse más rápido bajo el agua",
+            "name": "Aletas"
+        },
         "fur": {
             "name": "Piel"
+        },
+        "gambeson": {
+            "name": "Gambesón"
         },
         "groucho": {
             "desc": "Proporciona el disfraz perfecto. Seguramente nadie te reconocerá",
@@ -237,6 +277,15 @@
         "highvisjacket": {
             "name": "Chaleco reflectante"
         },
+        "indyfedora": {
+            "name": "Fedora de arqueólogo"
+        },
+        "indypants": {
+            "name": "Pantalones de arqueólogo"
+        },
+        "indyshoes": {
+            "name": "Zapatos de arqueólogo"
+        },
         "indytop": {
             "desc": "¿Nos volvemos a ver, Dr. Jones?",
             "name": "Chaqueta de arqueólogo"
@@ -255,6 +304,9 @@
         "knightsarmor1": {
             "name": "Armadura de caballero"
         },
+        "knightsarmorhelmet1": {
+            "name": "Casco de armadura de caballero"
+        },
         "leatherarmor": {
             "name": "Armadura de cuero"
         },
@@ -265,13 +317,28 @@
         "mask2": {
             "name": "Máscara"
         },
+        "maskanubis": {
+            "name": "Máscara de Anubis"
+        },
         "maskbear": {
             "desc": "Una máscara con forma de cabeza de oso",
             "name": "Máscara (oso)"
         },
+        "maskchicken": {
+            "desc": "Máscara con forma de cabeza de gallina",
+            "name": "Máscara (gallina)"
+        },
+        "maskfox": {
+            "desc": "Máscara con forma de cabeza de zorro",
+            "name": "Máscara (zorro)"
+        },
         "maskgoat": {
             "desc": "Una máscara con forma de cabeza de cabra",
             "name": "Máscara (cabra)"
+        },
+        "maskhorse": {
+            "desc": "Máscara con forma de cabeza de caballo",
+            "name": "Máscara (caballo)"
         },
         "maskpig": {
             "desc": "Una máscara con forma de cabeza de cerdo",
@@ -284,6 +351,9 @@
         "maskwolf": {
             "desc": "Una máscara con forma de cabeza de lobo",
             "name": "Máscara (lobo)"
+        },
+        "medievalcoif": {
+            "name": "Capucha medieval"
         },
         "medievalfurboots": {
             "name": "Botas de piel"
@@ -310,6 +380,21 @@
             "desc": "Un casco de minero antiguo con una vela adherida para iluminar tu camino en zonas oscuras",
             "name": "Casco de minero"
         },
+        "mountieboots": {
+            "name": "Botas de Mountie"
+        },
+        "mountiecap": {
+            "name": "Gorra de Mountie"
+        },
+        "mountiehat": {
+            "name": "Sombrero de Mountie"
+        },
+        "mountiejacket": {
+            "name": "Chaqueta de Mountie"
+        },
+        "mountiepants": {
+            "name": "Pantalones de Mountie"
+        },
         "necklace": {
             "name": "Collar"
         },
@@ -318,6 +403,9 @@
         },
         "oldbelt": {
             "name": "Cinturón viejo"
+        },
+        "oldboot": {
+            "name": "Bota vieja"
         },
         "oldboots": {
             "name": "Botas viejas"
@@ -331,14 +419,23 @@
         "oldhelmet": {
             "name": "Casco viejo"
         },
+        "onesie": {
+            "name": "Enterito"
+        },
         "paintballmask": {
             "name": "Máscara de paintball"
+        },
+        "paws": {
+            "name": "Patas"
         },
         "pickelhaube": {
             "name": "Pickelhaube"
         },
         "pilgrimhat": {
             "name": "Sombrero de peregrino"
+        },
+        "poloshirt": {
+        "name": "Camiseta polo"
         },
         "poncho": {
             "name": "Poncho"
@@ -373,11 +470,23 @@
             "desc": "También conocido como casco de explorador. Un casco liviano cubierto de tela",
             "name": "Casco de safari"
         },
+        "samuraiarmor": {
+        "name": "Armadura de samurái"
+        },
+        "samuraiarmorhelmet": {
+        "name": "Casco de samurái"
+        },
         "sandals": {
+            "name": "Sandalias"
+        },
+        "sandals2": {
             "name": "Sandalias"
         },
         "shorts": {
             "name": "Pantalones cortos"
+        },
+        "slippers": {
+        "name": "Pantuflas"
         },
         "sneakers1": {
             "name": "Zapatillas"
@@ -385,8 +494,14 @@
         "sneakers2": {
             "name": "Zapatillas"
         },
+        "sneakers3": {
+            "name": "Zapatillas"
+        },
         "sombrero": {
             "name": "Sombrero mexicano"
+        },
+        "spacearmor": {
+        "name": "Armadura de alta tecnología"
         },
         "sunglasses1": {
             "name": "Gafas de sol"
@@ -399,6 +514,12 @@
         },
         "tshirt": {
             "name": "Remera"
+        },
+        "tunic": {
+            "name": "Túnica"
+        },
+        "turban": {
+            "name": "Turbante"
         },
         "type": {
             "face": "Cara",
@@ -418,6 +539,9 @@
         },
         "vr": {
             "name": "Gafas de realidad virtual"
+        },
+        "warbonnet": {
+            "name": "Penacho de guerra"
         },
         "winterjacket": {
             "name": "Campera de invierno"
@@ -748,6 +872,7 @@
             "copyseed": "Copiar semilla",
             "createbackup": "Crear copia de seguridad",
             "deletebackup": "Eliminar copia de seguridad",
+            "modify": "Modificar",
             "openfolder": "Abrir carpeta",
             "pasteseed": "Pegar semilla",
             "rename": "Renombrar mundo",
@@ -1037,7 +1162,9 @@
             "container": "Contenedor",
             "cooking": "Cocina",
             "decoration": "Decoración",
+            "divinggear": "Equipo de buceo",
             "doors": "Puertas",
+            "dresses": "Vestidos",
             "engines": "Motores",
             "explosives": "Explosivos",
             "firearms": "Armas de fuego",
@@ -1073,6 +1200,7 @@
             "shootingtargets": "Blancos de tiro",
             "signs": "Carteles",
             "snacks": "Bocadillos",
+            "specialoutfits": "Ropajes especiales",
             "statues": "Estatuas",
             "storages": "Almacenamientos",
             "survival": "Supervivencia",
@@ -1107,6 +1235,17 @@
         "merrychristmas": "¡Feliz Navidad!",
         "month": "Mes",
         "months": "Meses",
+        "moonphase": {
+            "bloodmoon": "Luna de sangre",
+            "fullmoon": "Luna llena",
+            "newmoon": "Luna nueva",
+            "waningmoon1": "Luna menguante (10%)",
+            "waxingmoon1": "Luna creciente (10%)",
+            "waxingmoon2": "Luna creciente (30%)",
+            "waxingmoon3": "Luna creciente (50%)",
+            "waxingmoon4": "Luna creciente (70%)",
+            "waxingmoon5": "Luna creciente (90%)"
+        },
         "name": "Fecha",
         "november": "Noviembre",
         "october": "Octubre",
@@ -1163,6 +1302,7 @@
         "default": "Predeterminado",
         "disable": "Desactivar",
         "disabled": "Desactivado",
+        "distance": "Distancia",
         "edit": "Editar",
         "enable": "Activar",
         "enabled": "Activado",
@@ -1393,6 +1533,10 @@
         "boarhide": {
             "name": "Piel de jabalí"
         },
+        "bolt": {
+            "desc": "Un proyectil que se dispara con <u>ballestas</u>",
+            "name": "Virote"
+        },
         "bomb": {
             "desc": "Crea una explosión que solo daña objetivos blandos",
             "name": "Granada vieja"
@@ -1568,6 +1712,7 @@
             "name": "Piel de vaca"
         },
         "crossbow": {
+            "desc": "Un arma a distancia que funciona de forma similar a un arco, pero que puede mantenerse cargada y lista para usar.\n\nDispara virotes",
             "name": "Ballesta"
         },
         "decal": {
@@ -1608,6 +1753,9 @@
         },
         "eggpeeled": {
             "name": "Huevo pelado"
+        },
+        "eggplant": {
+           "name": "Berenjena"
         },
         "eggrainbow": {
             "name": "Huevo arcoíris"
@@ -1669,6 +1817,10 @@
         },
         "gingerroot": {
             "name": "Raíz de jengibre"
+        },
+        "goatling": {
+            "desc": "Un cabritillo capturado. No deberías guardarlo en tu inventario durante demasiado tiempo...",
+            "name": "Cabritillo"
         },
         "goatpelt": {
             "name": "Piel de cabra"
@@ -1812,6 +1964,10 @@
         "koidried": {
             "name": "Koi seco"
         },
+        "lamb": {
+            "desc": "Un cordero capturado. No deberías guardarlo en tu inventario durante demasiado tiempo...",
+            "name": "Cordero"
+        },
         "lantern": {
             "name": "Linterna"
         },
@@ -1936,6 +2092,9 @@
         "obsidian": {
             "name": "Obsidiana"
         },
+        "oldboot": {
+            "name": "Bota vieja"
+        },
         "oldshears": {
             "desc": "Usadas para esquilar ovejas y obtener su lana",
             "name": "Tijeras"
@@ -1998,6 +2157,10 @@
         },
         "pighide": {
             "name": "Piel de cerdo"
+        },
+        "piglet": {
+            "desc": "Un lechón capturado. No deberías guardarlo en tu inventario durante demasiado tiempo...",
+            "name": "Lechón"
         },
         "plaice": {
             "name": "Platija"
@@ -2996,7 +3159,8 @@
             "wontbite": "Los peces no morderán si estás demasiado cerca..."
         },
         "harvesting": {
-            "cannotharvest": "No podés obtener una plántula de esta planta"
+            "cannotharvest": "No podés obtener una plántula de esta planta",
+            "dontdestroylog": "Seguir cortando el tronco lo hará inutilizable.\n\nPara recolectar madera, recógelo directamente"
         },
         "holdinteractionformoreoptions": "Mantené presionado {0} para más opciones",
         "images": {
@@ -3023,64 +3187,69 @@
             },
             "bow": {
                 "changingarrow": "Cambiando flecha: {0}",
-                "noarrows": "No tenés ninguna flecha",
-                "onlyonearrowtype": "¡Solo tenés un tipo de flecha en tu inventario!"
+                "noarrows": "No tienes ninguna flecha",
+                "onlyonearrowtype": "Solo tienes un tipo de flecha en tu inventario"
             },
-            "break": "¡Tu objeto se rompió!",
+            "break": "¡Tu objeto acaba de romperse!",
             "breakwarning": "Este objeto no durará mucho más...",
-            "breakwarningprimitiveaxe": "¡Deberías <u>realmente</u> conseguir una nueva hacha lo antes posible!\nPorque esta no durará para siempre...",
-            "cantdounderwater": "No podés hacer eso mientras estás bajo el agua",
+            "breakwarningprimitiveaxe": "¡Deberías conseguir un hacha nueva <u>lo antes posible</u>!\nPorque este hacha no durará para siempre...",
+            "cantdounderwater": "No puedes hacer eso mientras estás bajo el agua",
+            "crossbow": {
+                "changingbolt": "Cambiando virote: {0}",
+                "nobolts": "No tienes ningún virote",
+                "onlyonebolttype": "Solo tienes un tipo de virote en tu inventario"
+            },
             "doesnotworkunderwater": "Este objeto no funciona bajo el agua",
             "firework": {
-                "timer": "El fuego artificial se encenderá en {0} segundos"
+                "timer": "El fuego artificial se disparará en {0} segundos"
             },
             "grappling": {
-                "dontlookoppositedirection": "No mires en dirección opuesta mientras trepás",
-                "ropesnapped": "¡La cuerda se rompió!"
+                "dontlookoppositedirection": "No mires en la dirección opuesta mientras te estás izando",
+                "ropesnapped": "¡La cuerda se ha roto!"
             },
             "itemstoohot": "Estos objetos están demasiado calientes para recogerlos",
             "itemtoohot": "Este objeto está demasiado caliente para recogerlo",
             "magnifyingglass": {
-                "equip": "El nivel máximo de zoom ({0}) ha aumentado\n\n¡También podés colocar la lupa en una ranura de equipamiento en tu inventario!"
+                "equip": "¡El nivel máximo de zoom ({0}) ha aumentado!\n\n¡También puedes colocar la lupa en una ranura de equipo en tu inventario!"
             },
             "measuringtape": {
-                "locked": "La cinta métrica ahora está bloqueada y permanecerá visible.\nPresioná {0} nuevamente para reiniciarla",
+                "locked": "La cinta métrica está ahora bloqueada y permanecerá visible.\nPresiona {0} de nuevo para restablecerla",
                 "locking": "Bloqueando cinta métrica...",
-                "unequipstilllocked": "NOTA: La cinta métrica sigue bloqueada y activa.\nPara quitarla, equipá el objeto de nuevo y presioná {0}",
-                "unlocked": "¡La cinta métrica fue desbloqueada nuevamente!"
+                "unequipstilllocked": "NOTA: La cinta métrica sigue bloqueada y activa.\nPara quitarla, vuelve a equipar el objeto y presiona {0}",
+                "unlocked": "¡La cinta métrica ya no está bloqueada!"
             },
             "medical": {
                 "bandage": {
-                    "cannotuse": "¡Ya vendaste tus heridas!",
-                    "notneeded": "No estás sangrando ahora, no necesitás una venda",
-                    "stillbleeding": "¡¡Todavía estás sangrando!!\n\n¡Intentá usar otra venda!"
+                "cannotuse": "¡Ya has vendado tus heridas!",
+                "notneeded": "No estás sangrando ahora y no necesitas una venda",
+                "stillbleeding": "¡¡Todavía estás sangrando!!\n\n¡Intenta usar otra venda!"
                 },
                 "medkit": {
-                    "notneeded": "No necesitás un botiquín en este momento"
+                "notneeded": "No necesitas un botiquín en este momento"
                 },
                 "splint": {
-                    "broke": "¡Tu férula se rompió!",
-                    "cannotuse": "¡Ya entablillaste tu pierna!",
-                    "notneeded": "No tenés ningún hueso roto por ahora"
+                "broke": "¡¡Tu férula para la pierna se rompió!!",
+                "cannotuse": "¡Ya has inmovilizado tu pierna con una férula!",
+                "notneeded": "No tienes ningún hueso roto en este momento"
                 }
             },
             "poster": {
-                "noposterforcopy": "No hay ningún póster en tu inventario.\nSi querés copiar este póster, asegurate de tener uno vacío en el inventario"
+                "noposterforcopy": "No hay ningún cartel en tu inventario.\nSi quieres copiar este cartel, asegúrate de tener un cartel vacío en tu inventario"
             },
             "terrain": {
-                "cannotchangeplacemode": "No podés cambiar el modo de colocación para este objeto"
+                "cannotchangeplacemode": "No puedes cambiar el modo de colocación de este objeto"
             },
             "toolbelt": {
-                "cannotmove": "¡Todavía hay objetos en tu cinturón de herramientas! Quitalos primero para moverlo",
-                "equiphint": "Para usar el cinturón de herramientas, ponelo en una ranura de equipamiento de tu inventario",
+                "cannotmove": "¡Aún hay objetos en tu cinturón de herramientas! Sácalos primero para mover el cinturón",
+                "equiphint": "Para usar el cinturón de herramientas, colócalo en una ranura de equipo en tu inventario",
                 "itemsdropped": "¡Los objetos de tu cinturón de herramientas cayeron al suelo!",
-                "itemsmoved": "¡Todavía había objetos en tu cinturón! ¡Ahora fueron movidos a tu inventario!"
+                "itemsmoved": "¡Aún había objetos en tu cinturón de herramientas! Ahora se han movido a tu inventario"
             },
             "wateringcan": {
-                "empty": "La regadera está vacía. Tenés que llenarla con agua primero",
+                "empty": "La regadera está vacía. Primero debes llenarla con agua",
                 "full": "La regadera ya está llena"
             }
-        },
+            },
         "journal": {
             "cannotloadnotes": "No se pueden cargar las notas del diario. Esto indica que el archivo <b>journal.json</b> en el directorio del juego no está correctamente formateado o algo impide que el juego lo lea.\n\nRevisá el archivo. También podés encontrar copias de seguridad en la carpeta \"/Cache/journal\". Opcionalmente enviá un informe de error."
         },
@@ -3205,10 +3374,13 @@
                 "deletenpcstitle": "Eliminar <u>todos</u> los NPCs..."
             },
             "mount": {
-                "brokenbag": "No podés acceder a esta alforja rota",
-                "removebagsfirst": "Tenés que quitar la alforja primero",
-                "saddlerequired": "Tenés que colocar una montura primero",
-                "saddlerequiredforbags": "Tenés que colocar una montura primero"
+                "brokenbag": "No puedes acceder a esta alforja",
+                "findmountwhileriding": "¿Estarás montado en la montura ahora mismo...?",
+                "probablydead": "No se encontró la montura. Probablemente, lamentablemente, esté muerta...",
+                "removebagsfirst": "Primero debes quitar la alforja",
+                "removeitemsfirst": "Las alforjas aún contienen objetos.\nSácalos primero",
+                "saddlerequired": "Primero debes colocar una silla de montar",
+                "saddlerequiredforbags": "Primero debes colocar una silla de montar"
             },
             "shearingsheep": "Esquilando oveja...",
             "shearsheepwithshears": "Necesitás tijeras para esquilar esta oveja",
@@ -3321,16 +3493,18 @@
         "pastedfromclipboard": "Pegado desde el portapapeles: {0}",
         "pastedfromclipboard2": "Pegado desde el portapapeles",
         "permission": {
-            "blueprintelementlimit": "Permiso: ¡No tenés permitido colocar un plano que contenga tantas piezas de construcción en este servidor!",
-            "blueprintplacelimit": "Permiso: ¡No podés colocar más planos en este servidor durante esta sesión!",
-            "insufficient": "¡Permiso insuficiente!",
-            "invalidpermissionsnotify": "No se pudieron cargar uno o más permisos. Por favor, verificá la sintaxis de los siguientes archivos de permisos:\n{0}",
-            "itemforbidden": "El objeto está prohibido para este jugador",
-            "itemforbiddenself": "Este objeto está prohibido para vos en este servidor",
-            "noblueprintplace": "No tenés permitido colocar un plano aquí",
+            "blueprintelementlimit": "Permiso: ¡No tienes permitido colocar un plano que contenga tantas piezas de construcción en este servidor!",
+            "blueprintplacelimit": "Permiso: ¡No puedes colocar más planos en este servidor durante esta sesión!",
+            "groupalreadyexists": "¡El grupo de permisos '{0}' ya existe!",
+            "groupnameinvalid": "El nombre del grupo no es válido. Asegúrate de elegir un nombre de archivo válido",
+            "insufficient": "¡Permisos insuficientes!",
+            "invalidpermissionsnotify": "No se pudieron cargar uno o más permisos. Por favor, revisa la sintaxis de los siguientes archivos de permisos:\n{0}",
+            "itemforbidden": "Este objeto está prohibido para este jugador",
+            "itemforbiddenself": "Este objeto está prohibido para ti en este servidor",
+            "noblueprintplace": "No tienes permiso para colocar un plano aquí",
             "noflymode": "El modo vuelo no está permitido en este servidor",
             "noflymodeanymore": "El modo vuelo ya no está permitido",
-            "noflymodesingleplayer": "El modo vuelo está deshabilitado",
+            "noflymodesingleplayer": "El modo vuelo está desactivado",
             "nopve": "El modo PVE no está permitido",
             "nopvp": "El modo PVP no está permitido",
             "noteleport": "La teletransportación no está permitida",
@@ -3407,25 +3581,27 @@
             "outofammo": "Sin munición"
         },
         "world": {
-            "createbackupfirst": "¿Querés crear una copia de seguridad de tu mundo primero?\n\nPodés restaurarla en cualquier momento haciendo clic derecho sobre el mundo en tu menú de un jugador",
-            "createbackuptitle": "¿Crear copia de seguridad primero?",
-            "deletesector": "¿Realmente querés eliminar el sector {0} {1}? Esto eliminará todos los fragmentos en este sector (incluyendo todo lo que se haya construido allí).\n\n<b>Nota: Para verificar tu posición actual de sector, presioná F3 para verla en la parte superior.</b>\n\n<color=red>Presioná cancelar para abortar esta operación</color>",
-            "deletesectorconfirm": "Confirmá nuevamente que querés eliminar el sector. El sector contiene:\n<color=yellow>\n{0} fragmentos\n{1} elementos de construcción\n{2} objetos\n</color>\n<b>¡Después de eliminar el sector, no hay forma de restaurarlo!</b>",
-            "deletesectorheader": "ELIMINAR SECTOR: {0} {1}",
+            "createbackup": "¿Quieres crear una copia de seguridad de tu mundo?\n\nLas copias de seguridad se guardan en la carpeta \"Backups\" dentro del directorio del juego.\n\nTambién puedes restaurarlas haciendo clic derecho sobre el mundo en el menú de un jugador.",
+            "createbackupfirst": "¿Te gustaría crear primero una copia de seguridad de tu mundo?\n\nPodrás restaurarla en cualquier momento haciendo clic derecho sobre el mundo en el menú de un jugador.",
+            "createbackupfirsttitle": "¿Crear una copia de seguridad primero?",
+            "createbackuptitle": "Crear copia de seguridad del mundo",
+            "deletesector": "¿Realmente quieres eliminar el sector {0} {1}? Esto eliminará todos los fragmentos (chunks) en este sector (lo que también significa que todo lo construido allí se perderá).\n\n<b>Nota: Para verificar tu posición actual en el sector, puedes pulsar F3 y verás el sector actual en la parte superior.</b>\n\n<color=red>Pulsa Cancelar para abortar esta operación</color>",
+            "deletesectorconfirm": "Confirma nuevamente que deseas eliminar el sector. El sector contiene:\n<color=yellow>\n{0} fragmentos\n{1} elementos de construcción\n{2} objetos\n</color>\n<b>¡Después de eliminar el sector, no habrá forma de recuperar los fragmentos!</b>",
+            "deletesectorheader": "ELIMINAR SECTOR:  {0}   {1}",
             "outofbounds": "Estás fuera del área de juego permitida en este servidor",
-            "overridebiomeregion": "¿Realmente querés sobrescribir la región climática del sector {0} | {1}?\n\n<color=red>Tené en cuenta que esto también reiniciará completamente el sector, eliminando todo lo que se haya construido allí.</color>",
-            "overridebiomeregionheader": "SOBRESCRIBIR REGIÓN CLIMÁTICA DEL SECTOR {0} {1}",
-            "sectordeleted": "¿Realmente querés eliminar el sector {0} {1}? Esto eliminará todos los fragmentos en este sector (incluyendo todo lo que se haya construido allí).\n\nNota: Para verificar tu posición actual de sector, presioná F3 para verla en la parte superior.\n\n<color=red>Presioná cancelar para abortar esta operación</color>",
+            "overridebiomeregion": "¿Realmente quieres sobrescribir la región climática del sector {0} | {1}?\n\n<color=red>Ten en cuenta que esto restablecerá completamente el sector, lo que significa que todo lo construido en él se eliminará de forma irreversible.</color>",
+            "overridebiomeregionheader": "SOBREESCRIBIR REGIÓN CLIMÁTICA DEL SECTOR  {0}   {1}",
+            "sectordeleted": "¿Realmente quieres eliminar el sector {0} {1}? Esto eliminará todos los fragmentos (chunks) en este sector (lo que también significa que todo lo construido allí se perderá).\n\nNota: Para verificar tu posición actual en el sector, puedes pulsar F3 y verás el sector actual en la parte superior.\n\n<color=red>Pulsa Cancelar para abortar esta operación</color>",
             "undo": {
                 "blueprint": "DESHACER: ¡Plano eliminado!",
                 "confirmation": {
-                    "blueprint": "¿Realmente querés deshacer el plano colocado?\n\nDe lo contrario, este paso de deshacer será omitido.\n\nNombre del plano: <b><color=yellow>{0}</color></b>",
-                    "header": "CONFIRMAR DESHACER"
+                "blueprint": "¿Realmente quieres deshacer la colocación del plano?\n\nDe lo contrario, este paso de deshacer se omitirá.\n\nNombre del plano: <b><color=yellow>{0}</color></b>",
+                "header": "EJECUTAR DESHACER"
                 },
                 "construction": "DESHACER: ¡Elemento de construcción restaurado!",
                 "nomoresteps": "DESHACER: No hay más pasos para deshacer",
-                "notallowed": "¡No se permite deshacer en este servidor!",
-                "notready": "DESHACER: La acción de deshacer aún no está lista. Intentá de nuevo en unos segundos",
+                "notallowed": "¡La función de deshacer no está permitida en este servidor!",
+                "notready": "DESHACER: La acción de deshacer no está lista aún. Inténtalo de nuevo en unos segundos",
                 "object": "DESHACER: ¡Objeto restaurado!",
                 "terrain": "DESHACER: ¡Terreno restaurado!",
                 "vegetation": "DESHACER: ¡Vegetación restaurada!"
@@ -3470,12 +3646,17 @@
                 "disabled": "Sin cuevas",
                 "enabled": "Cuevas activadas"
             },
+            "disablednpcs": "PNJs desactivados",
             "flatness": {
                 "default": "Predeterminado",
                 "flat": "Plano",
                 "steep": "Empinado",
                 "veryflat": "Muy plano",
                 "verysteep": "Muy empinado"
+            },
+            "npcs": {
+                "allenabled": "Todos los PNJs están activos",
+                "disabledheader": "PNJs desactivados"
             },
             "oreamount": {
                 "default": "Predeterminado",
@@ -3485,6 +3666,11 @@
                 "veryhigh": "Muy alto",
                 "verylow": "Muy bajo"
             },
+            "pois": {
+                "allenabled": "Todos los POIs están activos",
+                "disabledheader": "POIs desactivados"
+            },
+            "rightclicktomodify": "Haz clic derecho para modificar",
             "vegetation": {
                 "disabled": "Sin vegetación",
                 "enabled": "Vegetación activada"
@@ -4468,6 +4654,10 @@
             "desc": "Un barril abierto que puede llenarse con agua. Cuando se coloca afuera, puede llenarse con lluvia.",
             "name": "Barril de madera (abierto)"
         },
+        "woodencrate": {
+            "desc": "Se puede utilizar para almacenar objetos",
+            "name": "Cajón de madera"
+        },
         "woodshelf1": {
             "name": "Alacena"
         },
@@ -4501,6 +4691,7 @@
         },
         "arealabel": "Área",
         "areapermission": "Permiso de área",
+        "areapermissiononly": "Solo para permisos de área",
         "blueprint": {
             "create": "Determina si el jugador tiene permiso para crear nuevos planos (a partir de construcciones existentes)",
             "createown": "Determina si el jugador tiene permiso para crear nuevos planos que solo contengan sus propias construcciones",
@@ -4521,6 +4712,7 @@
             "image": "Imágenes",
             "info": "Información",
             "map": "Mapa",
+            "teleport": "Teletransportación",
             "world": "Mundo"
         },
         "command": {
@@ -4637,6 +4829,7 @@
         },
         "grouplabel": "Grupo",
         "grouppermission": "Permiso de grupo",
+        "grouppermissiononly": "Solo para permisos de grupo",
         "image": {
             "delete": "Determina si el jugador puede eliminar cualquier imagen del servidor",
             "deleteown": "Determina si el jugador puede eliminar sus propias imágenes",
@@ -5436,13 +5629,14 @@
                     }
                 },
                 "settingscontainer": {
+                    "advancedsettingsheader": "<smallcaps>Configuración avanzada</smallcaps>",
                     "oreheader": "Configuración de minerales",
                     "ores": {
                         "column1": {
                             "spawnoresinallregionstoggle": "Generar minerales en todas las regiones"
                         },
                         "column2": {
-                            "disablesurfaceoretoggle": "Desactivar rocas minerales en superficie"
+                            "disablesurfaceoretoggle": "Deshabilitar afloramientos de mineral en la superficie"
                         }
                     }
                 }
@@ -5533,9 +5727,13 @@
         },
         "filebrowser": {
             "created": "Creado: {0}",
-            "header": "Seleccioná un archivo...",
+            "directory": {
+                "root": "Raíz",
+                "rootwin": "Este equipo"
+            },
+            "header": "Selecciona un archivo...",
             "images": {
-                "header": "Seleccioná una imagen que quieras subir"
+                "header": "Selecciona una imagen que quieras subir"
             },
             "size": "Tamaño: {0} bytes"
         },
@@ -5638,6 +5836,8 @@
                 "bow": {
                     "aim": "Apuntar",
                     "changearrow": "Cambiar flecha (MANTENER)",
+                    "changebolt": "Cambiar virote (MANTENER)",
+                    "reload": "Recargar",
                     "shoot": "Disparar"
                 },
                 "bread": {
@@ -5711,6 +5911,9 @@
                     "catchnpc": "Atrapar animal",
                     "pullnpc": "Tirar",
                     "releasenpc": "Soltar"
+                },
+                "saddle": {
+                    "attach": "Colocar (Montura)"
                 },
                 "shears": {
                     "shearsheep": "Esquilar oveja"
@@ -5920,22 +6123,32 @@
         "ingamemenu": {
             "screen": {
                 "pausemenucontainer": {
-                    "buttoncontainer": {
-                        "friendsbutton": "Amigos",
-                        "mainmenubutton": "Volver al menú principal",
-                        "permissionsbutton": "Permisos",
-                        "quitbutton": "Salir",
-                        "respawnbutton": "Reaparecer",
-                        "settingsbutton": "Configuración"
+                "buttoncontainer": {
+                    "backupbutton": "Crear copia de seguridad del mundo",
+                    "consolebutton": "Consola",
+                    "friendsbutton": "Amigos",
+                    "mainmenubutton": "Volver al menú principal",
+                    "permissionsbuttoncontainer": {
+                    "permissionsbutton": "Permisos"
                     },
-                    "pauselabel": "- pausado -"
+                    "quitbutton": "Salir",
+                    "respawnbutton": "Reaparecer",
+                    "settingsbutton": "Configuración"
+                },
+                "pauselabel": "- pausa -"
                 },
                 "permissionmenucontainer": {
-                    "listcontainer": {
-                        "backbutton": "Volver",
-                        "permissionheaderlabel": "Permisos actuales"
-                    }
+                "listcontainer": {
+                    "backbutton": "Atrás",
+                    "permissionheaderlabel": "Permisos actuales"
                 }
+                },
+                "reportbutton": {
+                "text": "Enviar\ninforme"
+                }
+            },
+            "tooltips": {
+                "reportbutton": "Haz clic aquí para enviarnos un informe de error.\n\nTambién puedes escribir 'report' en la consola para hacerlo"
             }
         },
         "inventory": {
@@ -6490,16 +6703,13 @@
                 },
                 "skincontainer": {
                     "generalcontainer": {
-                        "gendercontainer": {
-                            "genderheader": "Género"
-                        },
                         "skinpartscontainer": {
                             "row1": {
                                 "beardcontainer": {
                                     "beardheader": "Barba"
                                 },
                                 "hairstylecontainer": {
-                                    "hairstyleheader": "Peinado"
+                                    "hairstyleheader": "Estilo de cabello"
                                 }
                             },
                             "row2": {
@@ -6509,6 +6719,14 @@
                                 "texturecontainer": {
                                     "textureheader": "Cuerpo"
                                 }
+                            }
+                        },
+                        "typecontainer": {
+                            "gendercontainer": {
+                                "genderheader": "Género"
+                            },
+                            "variantcontainer": {
+                                "variantheader": "Variante"
                             }
                         }
                     },
@@ -6539,6 +6757,15 @@
             "header": "- NPC {0} (ID: {1}) -"
         },
         "permissioneditor": {
+            "createnew": {
+                "areapermission": "Permiso de área",
+                "content": "Ingresa el nombre del grupo o permiso de área: ",
+                "header": "Crear nuevo permiso..."
+            },
+            "deletepermission": "¿Estás seguro de que quieres eliminar este grupo de permisos?\nNombre: <color=yellow>{0}</color>",
+            "deletepermissiontitle": "Eliminar grupo de permisos",
+            "savechanges": "¿Quieres guardar los cambios en este grupo de permisos?\nNombre: <color=yellow>{0}</color>",
+            "savechangestitle": "Guardar cambios",
             "screen": {
                 "permissioneditorcontainer": {
                     "permissiongroupscontainer": {
@@ -6687,6 +6914,7 @@
         "selectnpcmessagebox": {
             "buttoncontainer": {
                 "buttoncentercontainer": {
+                    "cancelbutton": "Cancelar",
                     "selectbutton": "Confirmar"
                 }
             },
@@ -6703,6 +6931,7 @@
         "selectpoimessagebox": {
             "buttoncontainer": {
                 "buttoncentercontainer": {
+                    "cancelbutton": "Cancelar",
                     "selectbutton": "Confirmar"
                 }
             },
@@ -7108,7 +7337,8 @@
             },
             "misc": {
                 "allowconsolecommands": "Permitir comandos de consola",
-                "allowflymode": "Permitir modo vuelo (solo supervivencia)",
+                "allowflymode": "Permitir modo vuelo (solo en supervivencia)",
+                "allowglobalmapmarkers": "Permitir marcadores globales en el mapa",
                 "alwaysshowgridonconstructions": "Mostrar siempre la cuadrícula en construcciones",
                 "alwaysshowgridonterrain": "Mostrar siempre la cuadrícula en el terreno",
                 "blueprintcentermode": "Planos: Punto de pivote",
@@ -7128,10 +7358,11 @@
                     "default": "Predeterminado",
                     "legacy": "Legado"
                 },
-                "buildinginformationopacity": "HUD: Opacidad del fondo de información de construcción",
-                "buildingmultiplacedirections": "Direcciones de colocación múltiple",
-                "buildingpivotkeeprotation": "Mantener rotación en modo de ajuste",
-                "buildingresizemode": "Modo de redimensionar",
+                "buildinginformationopacity": "HUD: Opacidad del fondo de información de construcciones",
+                "buildingmultiplacedirections": "Direcciones de colocación en fila",
+                "buildingpivotkeeprotation": "Modo de ajuste: Conservar rotación",
+                "buildingpivotsnaptoalltypes": "Modo de ajuste: Ajustar objetos a bloques",
+                "buildingresizemode": "Modo de redimensionamiento",
                 "buildingresizemodes": {
                     "default": "Predeterminado",
                     "legacy": "Legado"
@@ -7191,6 +7422,8 @@
                 "itemdespawntime": "Tiempo para desaparecer ítems",
                 "itemdurability": "Durabilidad de ítems",
                 "keepinventory": "Mantener inventario tras morir",
+                "moonbrightness": "Brillo de la luna",
+                "moonphases": "Fases lunares activas",
                 "mountsfollowviewdirection": "Monturas: Seguir dirección de vista",
                 "oresmeltingduration": "Duración de fundición de minerales",
                 "pauseinmenu": "Pausar juego en menú",
@@ -7251,6 +7484,7 @@
                 "tooltips":{
                     "allowconsolecommands": "Determina si se deberían permitir los comandos de consola",
                     "allowflymode": "Determina si el vuelo ({0}) debería estar permitido en modo supervivencia",
+                    "allowglobalmapmarkers": "Si está activado, todos los jugadores pueden crear marcadores globales en el mapa (es decir, marcadores visibles para todos los jugadores)",
                     "alwaysshowgridonconstructions": "Si está activado, la cuadrícula SIEMPRE será visible en los elementos de construcción.\nDe lo contrario, solo será visible mientras se construye",
                     "alwaysshowgridonterrain": "Si está activado, la cuadrícula SIEMPRE será visible en el terreno",
                     "blueprintincludeair": "Si está activado, el aire también será colocado por los planos (solo si el plano incluye terreno)",
@@ -7259,6 +7493,7 @@
                     "buildingdefaultsize": "Establece un tamaño predeterminado opcional para los nuevos elementos de construcción. Determina el tamaño en los ejes X, Y y Z, separados por espacios.\n<color=yellow>Ejemplo: \"1.0  2.0  0.1\"</color>",
                     "buildingmultiplacedirections": "Número de direcciones simultáneas permitidas al colocar múltiples elementos de construcción en fila",
                     "buildingpivotkeeprotation": "Si está activado, el juego ya no reinicia la rotación del elemento después de colocarlo mientras el modo de pivote está activo",
+                    "buildingpivotsnaptoalltypes": "Determina si los objetos (como muebles, puertas, etc.) también deben ajustarse a los bloques cuando el ajuste al punto de pivote esté activado",
                     "buildingresizemode": "Controla el comportamiento del cambio de tamaño.\n\nLegacy: Cambiar tamaño funciona como en la versión Java, es decir, Arriba/Abajo cambia la altura mientras Izquierda/Derecha cambia el ancho <u>y</u> la profundidad\n\nPredeterminado: Los ejes X, Y y Z pueden redimensionarse de manera independiente",
                     "buildingsnaprotation": "Si está activado, el elemento se alineará automáticamente a los ejes X, Y o Z mientras se rota",
                     "camerafollowvehicles": "Si está activado, la cámara seguirá automáticamente la rotación del vehículo",
@@ -7283,6 +7518,8 @@
                     "instantdigging": "Si está activado, todo se rompe con un solo golpe en modo supervivencia (similar al modo creativo)",
                     "itemdurability": "Determina la durabilidad de los objetos (es decir, cuánto tardan en romperse). El valor predeterminado es 100%. Establecer en 50% reduce a la mitad la duración, 200% la duplica, etc.\n\n<color=yellow>Para desactivar la durabilidad de objetos, establecer en 0</color>",
                     "keepinventory": "Si está activado, conservarás tu inventario después de morir",
+                    "moonbrightness": "Un factor de brillo aplicado a las noches y a la luz de la luna. Valor predeterminado: 100%",
+                    "moonphases": "Determina si las fases lunares deben estar activas. Desactívalo si siempre quieres una luna llena (brillante)",
                     "mountsfollowviewdirection": "Si está activado, las monturas seguirán automáticamente la dirección de tu vista al montarlas",
                     "oresmeltingduration": "Determina el factor de duración para fundir minerales en un horno. Predeterminado 100%. 50% reduce a la mitad la duración, 200% la duplica",
                     "pauseinmenu": "Si está activado, el juego se pausa cuando el menú está abierto (solo un jugador)",
@@ -7493,6 +7730,7 @@
             "inventory": {
                 "add": "Agregar nuevo objeto",
                 "armor": "Protección / Armadura",
+                "blueprints": "Agregar plano",
                 "health": "Salud",
                 "hunger": "Hambre",
                 "journal": "Abrir diario (ayuda)",
@@ -7505,15 +7743,16 @@
             "itemtooltip": {
                 "blueprint": "Plano: {0}",
                 "clothes": {
-                    "absorbency": "A prueba de agua: {0}",
-                    "attractlightning": "Puede atraer rayos",
+                    "absorbency": "Impermeabilidad: {0}",
+                    "attractlightning": "Podría atraer rayos",
                     "divinggoggles": "Proporciona visión clara bajo el agua",
+                    "flippers": "Natación rápida",
                     "insulation": "Aislamiento: {0}",
                     "nvg": "Te permite ver en la oscuridad",
                     "protection": "Protección: {0}",
                     "provideslight": "Proporciona luz",
-                    "saddle": "Úsalo para montar una criatura",
-                    "saddlebag": "Se acopla a una montura. Almacena objetos",
+                    "saddle": "Úsalo para montar una montura",
+                    "saddlebag": "Se puede colocar en sillas de montar. Almacena objetos",
                     "stamina": "Resistencia: {0}",
                     "storesitems": "Almacena objetos"
                 },
