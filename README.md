@@ -1,5 +1,5 @@
 # Rising World – Español (es-ES)  
-![Game Version](https://img.shields.io/badge/game%20version-0.9%20Points%20of%20Interest-blue)
+![Game Version](https://img.shields.io/badge/game%20version-0.9.1%20Steam%20Cloud%20and%20more-blue)
 ![Language](https://img.shields.io/badge/language-Espa%C3%B1ol-red)
 
 ¡Hola!  
