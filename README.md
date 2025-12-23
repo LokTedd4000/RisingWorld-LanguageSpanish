@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/language-Espa%C3%B1ol-red)
 
 ¡Hola!  
-Este repositorio **ya trae todo listo** para jugar **Rising World** en **español de España (es-ES)** hasta la actualización **0.9: Points of Interest**.
+Este repositorio **ya trae todo listo** para jugar **Rising World** en **español de España (es-ES)** hasta la actualización **0.9.1: Steam Cloud and more**.
 
 > ¿Es tu primera vez? 😏  
 > ¡Es súper fácil! Solo descomprimís y pegás en la carpeta del juego.
