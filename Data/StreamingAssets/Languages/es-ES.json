@@ -836,6 +836,7 @@
             "duplicate": "Duplicar",
             "equip": "Equipar ítem",
             "open": "Abrir",
+            "place": "Colocar",
             "split": "Dividir pila",
             "wearclothes": "Vestir"
         },
@@ -872,10 +873,12 @@
             "copyseed": "Copiar semilla",
             "createbackup": "Crear copia de seguridad",
             "deletebackup": "Eliminar copia de seguridad",
+            "load": "<color=yellow>Cargar mundo</color>",
             "modify": "Modificar",
             "openfolder": "Abrir carpeta",
             "pasteseed": "Pegar semilla",
             "rename": "Renombrar mundo",
+            "repair": "<color=orange>Reparar mundo</color>",
             "restorebackup": "Restaurar copia de seguridad"
         }
     },
@@ -1318,10 +1321,12 @@
         "min": "Mín",
         "never": "Nunca",
         "no": "No",
+        "nothing": "Nada",
         "off": "Apagado",
         "ok": "Aceptar",
         "on": "Encendido",
         "prohibited": "Prohibido",
+        "repair": "Reparar",
         "select": "Seleccionar",
         "unknown": "Desconocido",
         "yes": "Sí"
@@ -1459,9 +1464,16 @@
             "desc": "Una manzana saludable",
             "name": "Manzana"
         },
+        "arcticfoxcub": {
+			"name": "Cachorro de zorro ártico"
+		},
         "arcticfoxpelt": {
             "name": "Piel de zorro ártico"
         },
+        "arcticwolfcub": {
+			"desc": "Un cachorro de lobo ártico capturado. No deberías tenerlo en tu inventario por mucho tiempo...",
+	        "name": "Cachorro de lobo ártico"
+		},
         "arrow": {
             "desc": "Una flecha estabilizada y precisa",
             "name": "Flecha"
@@ -1565,6 +1577,14 @@
         },
         "breadhalf": {
             "name": "Medio pan"
+        },
+        "bucketwood": {
+            "desc": "Sirve para transportar líquidos",
+            "name": "Balde de madera"
+        },
+        "butter": {
+            "desc": "Producto lácteo",
+            "name": "Manteca"
         },
         "candycane": {
             "name": "Bastón de caramelo"
@@ -1808,6 +1828,10 @@
         },
         "forestground": {
             "name": "Tierra (suelo del bosque)"
+        },
+        "foxcub": {
+            "desc": "Un cachorro de zorro capturado. No deberías tenerlo en tu inventario por mucho tiempo...",
+            "name": "Cachorro de zorro"
         },
         "foxpelt": {
             "name": "Piel de zorro"
@@ -2079,7 +2103,8 @@
             "condition": {
                 "alive": "Vivo",
                 "dead": "Muerto"
-            }
+            },
+            "newborn": "Recién nacido"
         },
         "objectkit": {
             "desc": "Representa un objeto colocable",
@@ -2177,6 +2202,9 @@
         "plaicedried": {
             "name": "Platija seca"
         },
+        "plantitem": {
+			"name": "Planta"
+		},
         "polarbearpelt": {
             "name": "Piel de oso polar"
         },
@@ -2519,6 +2547,9 @@
         "snakemeat": {
             "name": "Carne de serpiente"
         },
+        "snakemeatbaked": {
+			"name": "Carne de serpiente al horno"
+		},
         "snakemeatburned": {
             "name": "Carne de serpiente quemada"
         },
@@ -2829,12 +2860,26 @@
         } 
     },
     "liquids": {
+        "empty": "Vacío",
+        "goatmilk": {
+            "name": "Leche de cabra"
+        },
         "lava": {
             "name": "Lava"
         },
+        "milk": {
+			"name": "Leche"
+		},
+        "saltwater": {
+			"name": "Agua salada"
+		},
+        "sheepmilk": {
+			"name": "Leche de oveja"
+		},
         "sugarbeet": {
             "name": "Jugo de remolacha azucarera"
         },
+        "unknown": "Desconocido",
         "water": {
             "name": "Agua"
         }
@@ -2926,6 +2971,7 @@
             "blobfishmeatcooked": "Comiste carne cocida de pez borrón",
             "blobfishmeatdried": "Comiste carne seca de pez borrón",
             "breadhalf": "Comiste un poco de pan",
+            "butter": "Has comido algo de mantequilla...",
             "candy": "Comiste un dulce",
             "candycane": "Comiste un bastón de caramelo",
             "carp": "Comiste una carpa cruda",
@@ -2993,6 +3039,11 @@
             "shrimpburned": "Comiste un camarón quemado",
             "shrimpcooked": "Comiste un camarón cocido",
             "shrimpdried": "Comiste un camarón seco",
+            "snakemeat": "Has comido carne de serpiente cruda",
+            "snakemeatbaked": "Has comido carne de serpiente horneada",
+            "snakemeatburned": "Has comido carne de serpiente quemada",
+            "snakemeatcooked": "Has comido carne de serpiente cocida",
+            "snakemeatdried": "Has comido carne de serpiente seca",
             "splint": "Te entablillaste la pierna rota\n\n¡Cuidate hasta que el hueso sane por completo!",
             "steak": "<color=red>Comiste un bife crudo. No estoy segura de que eso sea saludable...</color>",
             "steakburned": "<color=red>Comiste un bife quemado</color>",
@@ -3116,6 +3167,7 @@
             "filesystemaccessdenied": "El juego no pudo leer o escribir un archivo. Esto puede deberse a que el juego no tiene permisos o a que otro programa (por ejemplo, un antivirus) está impidiendo el acceso.\n\nMensaje de error:\n\n<color=yellow>{0}</color>",
             "gamefilecorrupted": "¡Uno o más archivos del juego están dañados! \nIntentá verificar la integridad de los archivos o descargar el juego nuevamente.\n\n<color=orange>Archivo dañado:\n{0}</color>",
             "gamefilecorruptedsteam": "¡Uno o más archivos del juego están dañados!\n\nIntentá verificar la integridad de los archivos del juego:\n1. Clic derecho en Rising World en tu biblioteca de Steam\n2. Seleccioná \"Propiedades\"\n3. Ir a \"Archivos locales\"\n4. Seleccioná \"Verificar integridad de los archivos del juego\"\n\n\n<color=orange>Archivo dañado:\n{0}</color>",
+            "graphicsdrivermissing": "Parece que no hay un controlador gráfico adecuado instalado. Esto puede causar problemas de rendimiento o cierres inesperados.\nDescargá e instalá el último controlador gráfico desde la página oficial del fabricante de tu tarjeta gráfica.\n\n<color=yellow>Adaptador detectado: {0}</color>",
             "graphicserror": "Ocurrió un error interno de {0}. Esto puede suceder si el controlador gráfico está desactualizado o si no hay suficiente memoria VRAM disponible.\n\nDescargá e instalá el último controlador desde la página del fabricante de tu tarjeta gráfica. Si el error persiste, contactá con soporte.\n\nMensaje de error: {1}",
             "graphicsmemory": "Parece haber un error relacionado con {0} o con la memoria gráfica. Puede deberse a poca VRAM o a un problema del controlador gráfico. Si tu controlador está actualizado, intentá reducir las configuraciones gráficas (especialmente la calidad de texturas) para disminuir el uso de VRAM.\n\n<color=yellow>Error: {1}</color>",
             "graphicswarning": "Ocurrió un error interno de {0}. Generalmente pasa si el controlador gráfico está desactualizado o si la tarjeta no soporta cierta función.\nDescargá e instalá el último controlador desde la página del fabricante de tu tarjeta gráfica.\n\n<color=yellow>Error: {1}</color>",
@@ -3133,9 +3185,11 @@
             "initializationtakestoolong": "La carga del juego está tardando demasiado. Esto puede indicar que el acceso al disco es muy lento. Revisá tu disco duro.\n\nTambién podría deberse a un antivirus. Probá desactivarlo temporalmente o agregá el juego a la lista de excepciones para ver si el problema continúa.",
             "nocomputeshaders": "Se requieren shaders de cómputo, pero aparentemente no son compatibles con este adaptador gráfico:\n\n<color=red>{0}</color>\n\nEsto puede deberse a un controlador gráfico desactualizado o con errores. Intentá descargar e instalar el más reciente.",
             "noinstancing": "Se requiere instanciación de GPU, pero no es compatible con este adaptador gráfico:\n\n<color=red>{0}</color>\n\nEsto puede deberse a un controlador gráfico desactualizado o con errores. Intentá descargar e instalar el más reciente.",
+            "notexture3d": "Las texturas 3D son necesarias, pero no son compatibles con este adaptador gráfico:\n\n<color=red>{0}</color>\n\nEsto puede deberse a un controlador gráfico desactualizado o con errores. Intentá descargar e instalar el último controlador gráfico.",
             "notexturearrays": "Se requieren matrices de texturas, pero no son compatibles con este adaptador gráfico:\n\n<color=red>{0}</color>\n\nEsto puede deberse a un controlador gráfico desactualizado o con errores. Intentá descargar e instalar el más reciente.",
             "recordingdeviceerror": "No se pudo inicializar tu dispositivo de grabación.\nIntentá seleccionar otro dispositivo en la configuración de audio.",
             "somethingwentwrong": "Algo salió mal...",
+            "sqlitecorrupted": "Parece que uno o más archivos del mundo están dañados. Esto puede haber sido causado por la sincronización de Steam Cloud (especialmente en combinación con un cierre inesperado del juego), pero también puede haber otras razones para la corrupción de datos.\n\nEl juego puede intentar reparar el mundo. Para hacerlo, hacé clic en el botón rojo \"Reparar\". Como alternativa, podés usar el comando de consola \"repairworld\".\n\nSi eso no funciona, ponete en contacto con nosotros.\n\n<align=left>\\tMensaje de error:\n<color=orange>\\t{0}</color></align>",
             "sqlitereadonly": "El juego no puede escribir el archivo del mundo en el disco. Esto indica que el archivo puede estar dañado o bloqueado por otro programa (como un antivirus o un firewall).\n\nAgregá el juego a la lista de permitidos o desactivá temporalmente esos programas para probar.\n\nTambién asegurate de que ningún otro proceso esté accediendo al archivo del mundo.",
             "steamapi": "No se pudo inicializar la API de Steam.\n\nEn la mayoría de los casos, reiniciar el cliente de Steam soluciona este problema.",
             "steamapitimeout": "No se pudo inicializar la API de Steam (Tiempo de espera agotado)\n\nReiniciar el cliente de Steam suele solucionar este problema.",
@@ -3193,6 +3247,13 @@
             "break": "¡Tu objeto acaba de romperse!",
             "breakwarning": "Este objeto no durará mucho más...",
             "breakwarningprimitiveaxe": "¡Deberías conseguir un hacha nueva <u>lo antes posible</u>!\nPorque este hacha no durará para siempre...",
+            "bucket": {
+                "alreadyfull": "Este balde ya está lleno",
+                "empty": "Este balde está vacío",
+                "holdtopour": "Mantené presionado para vaciar el balde"
+            },
+            "cannotpickup": "No podés recoger este objeto",
+            "cannotplace": "No podés colocar este objeto",
             "cantdounderwater": "No puedes hacer eso mientras estás bajo el agua",
             "crossbow": {
                 "changingbolt": "Cambiando virote: {0}",
@@ -3286,6 +3347,12 @@
                 "deleteworld": "¿Realmente querés eliminar este mundo?",
                 "deleteworldtitle": "Eliminar Mundo: {0}",
                 "nop2pofflinemode": "¡No podés alojar una sesión multijugador P2P en modo sin conexión!",
+                "recovery": {
+                    "failure": "La recuperación del mundo parece haber fallado",
+                    "partlysuccess": "<color=yellow>¡La recuperación del mundo fue parcialmente exitosa!</color>\nDeberías intentar cargar el mundo y ver si funcionó.\n\nSi no funciona, envianos un reporte. Para hacerlo, abrí la consola y escribí \"report\". Agregá una breve descripción indicando que la restauración de un mundo falló.",
+                    "recovering": "Recuperando mundo...",
+                    "success": "¡El mundo parece haberse restaurado correctamente!"
+                },
                 "renameworld": "Por favor, ingresá un nuevo nombre para el mundo:",
                 "selectworldfirst": "¡Primero seleccioná un mundo!",
                 "worldalreadyexists": "El mundo {0} ya existe",
@@ -3315,6 +3382,7 @@
             "blacklisted": "¡No tenés permiso para unirte a este servidor! (Lista negra)",
             "connectionerror": "Error de conexión",
             "corruptedplayer": "Datos del jugador corruptos.\n¡Contactá a un administrador del servidor!",
+            "craftingrecipemismatch": "La receta de fabricación en el servidor no coincide",
             "groupinvite": "{0} quiere invitarte a su grupo",
             "groupinvitedeclined": "{0} rechazó tu invitación al grupo",
             "groupjoined": "{0} se unió a tu grupo",
@@ -3363,6 +3431,11 @@
         "noloot": "No hay nada para saquear...",
         "notsupportedyet": "Aún no compatible",
         "npc": {
+            "cannotdowhilesleeping": "No podés hacer eso mientras el animal está durmiendo",
+            "cannotgetmilk": "No podés obtener leche de este animal",
+            "cannotgetmilkfrombull": "Solo se puede obtener leche de animales hembras.\nEste, sin embargo, es un toro",
+            "cannotgetmilkfromcalf": "Este animal es demasiado joven para producir leche",
+            "cannotgetmilkwhilelying": "No podés ordeñar a este animal mientras está acostado",
             "cannotride": "Todavía no podés montar este caballo",
             "delete": {
                 "all": "Todos",
@@ -3373,6 +3446,11 @@
                 "deletenpcs": "¿Realmente querés eliminar estos NPCs?\nNpc: {0}\nRango: {1}",
                 "deletenpcstitle": "Eliminar <u>todos</u> los NPCs..."
             },
+            "dontpickupnewborn": "No deberías recoger a un recién nacido todavía",
+            "milkcooldown": "Este animal no está dando leche en este momento",
+            "milking": "Ordeñando...",
+            "milkpregnancy": "Este animal ya no produce leche. Solo podés obtener leche después de que el animal haya tenido crías",
+            "milkudder": "Para ordeñar a este animal, tenés que usar la ubre",
             "mount": {
                 "brokenbag": "No puedes acceder a esta alforja",
                 "findmountwhileriding": "¿Estarás montado en la montura ahora mismo...?",
@@ -3388,6 +3466,13 @@
             "tooyoungtoshear": "Este cordero es demasiado joven para ser esquilado"
         },
         "objects": {
+            "butterchurn": {
+                "alreadyready": "Tu manteca ya está lista. Abrí la mantequera para recogerla",
+                "churnfaster": "¡Tenés que batir la leche más rápido para que se convierta en manteca!",
+                "insertmilk": "Primero tenés que insertar leche",
+                "progress": "Progreso: {0}",
+                "ready": "Tu manteca está lista. Abrí la mantequera para recogerla"
+            },
             "calendar": {
                 "currentdate": "Actualmente es el día {0} de {1}",
                 "remainingday": "Falta solo {0} día para {1}!",
@@ -3455,6 +3540,7 @@
                 "nofuelrefill": "Este horno no tiene combustible.\nPodés recargarlo del lado izquierdo"
             },
             "paperpress": {
+                "turnclothintoragsfirst": "Primero tenés que convertir la tela en trapos.\nUsá una moledora para hacerlo",
                 "waterrequired": "Primero tenés que agregar agua para convertir los trapos en papel"
             },
             "placed": "Colocado: {0}",
@@ -3468,7 +3554,8 @@
                 "holdinteracttoedit": "Mantené presionado {0} para editar el texto"
             },
             "spinningwheel": {
-                "usereel": "Para usar la rueca, interactuá con el carrete mientras sostenés fibras o lana en la mano"
+                "progress": "Progreso: {0}",
+                "usereel": "Para usar la rueda de hilar, interactuá con la bobina mientras tenés fibras o lana en la mano"
             },
             "storage": {
                 "broken": "Este cofre está roto",
@@ -3591,12 +3678,15 @@
             "outofbounds": "Estás fuera del área de juego permitida en este servidor",
             "overridebiomeregion": "¿Realmente quieres sobrescribir la región climática del sector {0} | {1}?\n\n<color=red>Ten en cuenta que esto restablecerá completamente el sector, lo que significa que todo lo construido en él se eliminará de forma irreversible.</color>",
             "overridebiomeregionheader": "SOBREESCRIBIR REGIÓN CLIMÁTICA DEL SECTOR  {0}   {1}",
+            "recover": "Esta herramienta intenta reparar mundos corruptos y recuperar la mayor cantidad de datos posible.\n\nTené en cuenta que esto no siempre puede funcionar y que tal vez no pueda restaurar todos los datos del mundo, dependiendo del grado de corrupción de los datos.\n\nEl juego creará una copia de seguridad del mundo corrupto antes de intentar repararlo.",
+            "recoverfrommenuonly": "¡Solo podés ejecutar la reparación/recuperación del mundo desde el menú principal!",
+            "recovertitle": "Reparación de mundo: <color=yellow>{0}</color>",
             "sectordeleted": "¿Realmente quieres eliminar el sector {0} {1}? Esto eliminará todos los fragmentos (chunks) en este sector (lo que también significa que todo lo construido allí se perderá).\n\nNota: Para verificar tu posición actual en el sector, puedes pulsar F3 y verás el sector actual en la parte superior.\n\n<color=red>Pulsa Cancelar para abortar esta operación</color>",
             "undo": {
                 "blueprint": "DESHACER: ¡Plano eliminado!",
                 "confirmation": {
-                "blueprint": "¿Realmente quieres deshacer la colocación del plano?\n\nDe lo contrario, este paso de deshacer se omitirá.\n\nNombre del plano: <b><color=yellow>{0}</color></b>",
-                "header": "EJECUTAR DESHACER"
+                    "blueprint": "¿Realmente quieres deshacer la colocación del plano?\n\nDe lo contrario, este paso de deshacer se omitirá.\n\nNombre del plano: <b><color=yellow>{0}</color></b>",
+                    "header": "EJECUTAR DESHACER"
                 },
                 "construction": "DESHACER: ¡Elemento de construcción restaurado!",
                 "nomoresteps": "DESHACER: No hay más pasos para deshacer",
@@ -3646,6 +3736,7 @@
                 "disabled": "Sin cuevas",
                 "enabled": "Cuevas activadas"
             },
+            "corrupted": "Corrupto",
             "disablednpcs": "PNJs desactivados",
             "flatness": {
                 "default": "Predeterminado",
@@ -3778,6 +3869,9 @@
         "elephant": {
             "name": "Elefante"
         },
+        "elephantcalf": {
+			"name": "Cría de elefante"
+		},
         "firewolf": {
             "name": "Lobo de fuego"
         },
@@ -3997,6 +4091,10 @@
         },
         "bulkheadlamp2": {
             "name": "Lámpara de mamparo (simple)"
+        },
+        "butterchurn": {
+            "desc": "Una mantequera de émbolo. Se usa para convertir leche en manteca",
+            "name": "Mantequera"
         },
         "cabinet1": {
             "name": "Gabinete"
@@ -4636,6 +4734,9 @@
         "watchtowerbroken": {
             "name": "Torre de vigilancia (destruida)"
         },
+        "watchtowerlarge": {
+            "name": "Torre de Vigilancia Grande"
+        },
         "weathervane": {
             "desc": "Muestra la dirección actual del viento",
             "name": "Veleta"
@@ -4720,12 +4821,14 @@
             "ban": "Determina si el jugador tiene permiso para expulsar permanentemente (banear) a otros jugadores",
             "cleanup": "Determina si el jugador puede usar el comando \"cleanup\"",
             "clearinventory": "Determina si el jugador puede vaciar su inventario mediante un comando",
+            "deletechunks": "Determina si el jugador puede ejecutar el comando \"deletechunk\" para eliminar o restablecer por completo un chunk",
             "deletenpc": "Determina si el jugador puede ejecutar el comando \"deletenpc\" para eliminar un NPC",
             "deleteplayer": "Determina si el jugador puede ejecutar el comando \"deleteplayer\" para eliminar los datos de un jugador",
             "deletesector": "Determina si el jugador puede ejecutar el comando \"deletesector\" para eliminar o reiniciar una isla completa",
             "disablenpc": "Determina si el jugador puede deshabilitar un NPC específico en este servidor mediante un comando",
             "editnpc": "Determina si el jugador puede usar el comando \"editnpc\" para editar NPCs existentes (apariencia, ropa, comportamiento, etc.)",
             "findbase": "Determina si el jugador puede usar el comando \"findbase\" para localizar el chunk con más elementos de construcción",
+            "findmount": "Determina si el jugador puede ejecutar el comando \"findmount\" para encontrar la última montura que utilizó",
             "gc": "Determina si el jugador puede invocar el recolector de basura del servidor (comando \"servergc\")",
             "getplayerinfo": "Determina si el jugador puede consultar información de otros jugadores mediante el comando \"playerinfo\"",
             "getserverinfo": "Determina si el jugador puede consultar información del servidor mediante el comando \"serverinfo\"",
@@ -4814,6 +4917,7 @@
             "notemperature": "Determina si los efectos de temperatura están desactivados para el jugador",
             "opencrafting": "Determina si el jugador puede abrir el menú de crafteo",
             "openinventory": "Determina si el jugador puede abrir su inventario",
+            "peacefulmode": "Activa o desactiva el modo pacífico (es decir, los enemigos no atacarán primero). Si este permiso está establecido, sobrescribe la configuración en server.properties!",
             "pickupitems": "Determina si el jugador puede recoger objetos",
             "placeitems": "Determina si el jugador puede colocar objetos en el mundo",
             "placevehicles": "Determina si el jugador puede colocar o ensamblar vehículos",
@@ -4822,9 +4926,12 @@
             "ridemounts": "Determina si el jugador puede montar animales",
             "unlockalldoors": "Determina si el jugador puede desbloquear todas las puertas (incluso las que no posee)",
             "useallchests": "Determina si el jugador puede acceder a todos los cofres (incluso los que no posee)",
+            "usealldoors": "Determina si el jugador puede abrir o cerrar todas las puertas (incluso las que no le pertenecen)",
+            "useallfurnaces": "Determina si el jugador puede usar todos los hornos (incluso los que no le pertenecen)",
             "usealllights": "Determina si el jugador puede modificar todas las lámparas y luces (incluso las que no posee)",
             "useallobjects": "Determina si el jugador puede interactuar con todos los objetos (incluso los que no posee)",
             "useallvehicles": "Determina si el jugador puede usar todos los vehículos (incluso los que no posee)",
+            "usenaturalobjects": "Determina si el jugador puede interactuar con objetos generados naturalmente (por ejemplo, objetos en POIs)",
             "voicechat": "Determina si el jugador puede usar el chat de voz"
         },
         "grouplabel": "Grupo",
@@ -4833,6 +4940,8 @@
         "image": {
             "delete": "Determina si el jugador puede eliminar cualquier imagen del servidor",
             "deleteown": "Determina si el jugador puede eliminar sus propias imágenes",
+            "edit": "Determina si el jugador puede modificar todas las imágenes/pósteres en el servidor",
+            "editown": "Determina si el jugador puede modificar sus propias imágenes/pósteres",
             "maxamount": "Determina la cantidad máxima de imágenes (pósters) que el jugador puede subir",
             "maxresolution": "Determina la resolución máxima permitida para imágenes personalizadas (pósters) subidas"
         },
@@ -4861,7 +4970,8 @@
         "map": {
             "allicons": "Determina si el jugador puede crear todos los íconos de mapa disponibles. De lo contrario, solo tendrá acceso a los marcadores predeterminados",
             "createglobalmarker": "Determina si el jugador puede crear marcadores globales (visibles para todos los jugadores)",
-            "createlocalmarker": "Determina si el jugador puede crear marcadores propios (visibles solo para él)"
+            "createlocalmarker": "Determina si el jugador puede crear marcadores propios (visibles solo para él)",
+            "deletetile": "Determina si el jugador puede eliminar un mosaico del mapa (lo que obliga al servidor a regenerarlo)"
         },
         "world": {
             "destroyconstructions": "Determina si el jugador puede destruir elementos de construcción",
@@ -4882,7 +4992,8 @@
             "placeobjectsexception": "Si \"placeobjects\" no está permitido, aquí se pueden especificar excepciones (objetos que el jugador aún puede colocar)",
             "placeterrain": "Determina si el jugador puede colocar terreno",
             "placevegetations": "Determina si el jugador puede colocar plantas o árboles",
-            "undo": "Determina si el jugador puede usar el comando \"undo\""
+            "undo": "Determina si el jugador puede usar el comando \"undo\"",
+            "undoinsurvival": "Determina si el jugador puede usar el comando \"undo\" en modo supervivencia"
         }
     },
     "plant": {
@@ -5121,6 +5232,15 @@
             "identify": "Identificar",
             "loot": "Saquear"
         },
+        "creative": {
+            "area": "Herramientas de área",
+            "edit": "Herramientas de edición",
+            "normal": "Modo normal",
+            "npc": "Herramientas de PNJ",
+            "placement": "Herramientas de colocación",
+            "removal": "Herramientas de eliminación",
+            "terrain": "Herramientas de terreno"
+        },
         "doors": {
             "close": "Cerrar",
             "deconstruct": "Desmontar",
@@ -5149,6 +5269,7 @@
             }
         },
         "items": {
+            "drop": "Soltar objeto",
             "fireworkrocket": {
                 "setoff": "Encender",
                 "setoffall": "Encender todos (cercanos)",
@@ -5170,7 +5291,9 @@
                     "name": "Unidad\n<#FFFF00>{0}<#FFFFFF>"
                 }
             },
-            "pickup": "Recoger"
+            "pickup": "Recoger",
+            "place": "Colocar objeto",
+			"unequip": "Desequipar objeto"
         },
         "mount": {
             "mount": "Montar",
@@ -5843,6 +5966,11 @@
                 "bread": {
                     "cut": "Cortar pan"
                 },
+                "bucket": {
+                    "milk": "Leche",
+                    "pour": "Verter",
+                    "refill": "Rellenar"
+                },
                 "climbingrope": {
                     "climb": "Escalar",
                     "release": "Soltar gancho",
@@ -6098,6 +6226,9 @@
                             },
                             "terrainwatertool": {
                                 "label": "Agua"
+                            },
+                            "waterareatool": {
+                                "label": "Área\n(Agua)"
                             }
                         }
                     },
@@ -6333,6 +6464,7 @@
                             "resources": "Recursos",
                             "servernotes": "Notas del servidor",
                             "servernotes_tooltip": "Notas configuradas por el servidor actual",
+                            "survival": "Supervivencia",
                             "worldnotes": "Notas del mundo",
                             "worldnotes_tooltip": "Notas propias disponibles solo en este mundo"
                         },
@@ -6447,12 +6579,16 @@
                                 "text2": "Para obtener pieles de animales muertos, usá un cuchillo. El cuchillo primitivo es suficiente."
                             },
                             "resources_paper": {
+                                "arrow1_label": "Agregá agua",
                                 "header": "Papel",
                                 "image1": {
                                     "label": "Molino + tela = trapos"
                                 },
                                 "image2": {
-                                    "label": "Prensa de papel convierte trapos en papel"
+                                    "label": "Prensa de papel para convertir trapos en papel.\nPero primero agregá agua"
+                                },
+                                "image3": {
+                                    "label": "Importante: Usá un balde para agregar agua"
                                 },
                                 "text1": "El papel se fabrica a partir de trapos y requiere una <u>prensa de papel</u>.",
                                 "text2": "Los trapos se fabrican con tela: colocá la tela en el molino para convertirla en trapos. \nDespués ponelos en la prensa para crear papel."
@@ -6756,6 +6892,33 @@
             },
             "header": "- NPC {0} (ID: {1}) -"
         },
+        "onscreenkeyboard": {
+            "screen": {
+                "keyboardcontainer": {
+                    "row1": {
+                        "backspace": "Retroceso"
+                    },
+                    "row2": {
+                        "tab": "Tab"
+                    },
+                    "row3": {
+                        "caps": "Bloq Mayús",
+                        "enter": "Intro"
+                    },
+                    "row4": {
+                        "shiftl": "Mayús",
+                        "shiftr": "Mayús"
+                    },
+                    "row5": {
+                        "clear": "Limpiar",
+                        "close": "Cerrar",
+                        "copy": "Copiar",
+                        "extra": "Extra",
+                        "paste": "Pegar"
+                    }
+                }
+            }
+        },
         "permissioneditor": {
             "createnew": {
                 "areapermission": "Permiso de área",
@@ -7049,6 +7212,7 @@
                 "interaction": "Interacción",
                 "inventory": "Inventario",
                 "itemduplicate": "Duplicar ítem",
+                "itemplace": "Colocar ítem",
                 "itemsplit": "Dividir pila de ítems",
                 "journal": "Diario",
                 "jump": "Saltar",
@@ -7092,6 +7256,7 @@
                     "copyblock": "Agrega una copia del bloque al que estás mirando al inventario (si no existe ya) y lo equipa.\nEn modo supervivencia, solo se equipa si ya lo tenés en el inventario",
                     "customcommand": "Ingresa un comando de consola y asígnalo a una tecla.\nCada vez que presiones la tecla, el comando se ejecutará",
                     "itemduplicate": "Atajo opcional para duplicar un ítem en el inventario (mientras el cursor está sobre él)",
+                    "itemplace": "Te permite colocar el objeto que tenés equipado actualmente de forma persistente en el mundo",
                     "itemsplit": "Atajo opcional para dividir una pila de ítems (mientras el cursor está sobre ella)",
                     "quickselectblock": "Equipa un bloque idéntico al que estás mirando.\n\nEn creativo, se agrega al inventario si aún no existe",
                     "scrollspeedui": "Velocidad de desplazamiento en listas de la interfaz"
@@ -7114,17 +7279,26 @@
                 "zoomtoggle": "Zoom (Alternar)"
             },
             "gamepad": {
-                "analogdeadzone": "Zona muerta del analógico",
-                "enabled": "Entrada con mando habilitada",
+                "analogdeadzone": "Zona muerta analógica",
+                "enabled": "Controlador activado",
                 "general": "General",
                 "invert": "Invertir eje Y",
-                "mapping": "Asignación",
+                "mapping": "Asignación de botones",
+                "onscreenkeyboardsize": "Tamaño del teclado en pantalla",
+                "osk": {
+					"default": "Predeterminado",
+					"steam": "Steam"
+				},
                 "rumbleintensity": "Intensidad de vibración",
                 "sensitivity": "Sensibilidad del mando",
+                "sensitivityaim": "Sensibilidad del mando (apuntar)",
+                "textinput": "Entrada de texto",
                 "tooltips": {
                     "analogdeadzone": "Las entradas analógicas por debajo de este umbral serán ignoradas.\n<color=yellow>Valor predeterminado: 15%</color>",
                     "defaultvalue": "Valor predeterminado: {0}",
                     "gamepadinvert": "Si está activado, el eje Y del analógico se invertirá",
+                    "onscreenkeyboardsize": "Determina el tamaño del teclado en pantalla (que aparece al ingresar texto)",
+                    "relativetobasesensitivity": "(relación con la sensibilidad de la base)",
                     "rumbleintensity": "Determina la intensidad de la vibración (que sólo ocurre en ciertas situaciones). Establecer en 0 para desactivar la vibración"
                 }
             },
@@ -7368,9 +7542,12 @@
                     "legacy": "Legado"
                 },
                 "buildingsnaprotation": "Ajuste al rotar",
+                "cacheicons": "Cachear iconos",
                 "camerafollowvehicles": "Vehículos: Ajustar cámara a dirección del vehículo",
                 "chatfontsize": "Tamaño de fuente del chat",
+                "cloudsave": "Activar guardado en la nube de {0}",
                 "collapsecraftingcategories": "Contraer categorías de crafteo",
+                "constructionitemkeepsize": "Mantener tamaño de construcción (objeto)",
                 "creativeconfirmremoval": "Mostrar diálogo de confirmación al eliminar",
                 "creativecopyblockcolor": "Copiar color del bloque",
                 "creativelightintensity": "Intensidad de luz (modo creativo)",
@@ -7498,6 +7675,7 @@
                     "buildingsnaprotation": "Si está activado, el elemento se alineará automáticamente a los ejes X, Y o Z mientras se rota",
                     "camerafollowvehicles": "Si está activado, la cámara seguirá automáticamente la rotación del vehículo",
                     "collapsecraftingcategories": "Si está activado, las categorías de selección de texturas de bloques estarán colapsadas por defecto",
+                    "constructionitemkeepsize": "Si se activa, los elementos de construcción mantendrán su tamaño al desmontarlos con un mazo",
                     "creativeconfirmremoval": "Si está activado, se mostrará un cuadro de confirmación al eliminar elementos con las herramientas de eliminación del modo creativo",
                     "creativecopyblockcolor": "Si está activado, copiar un bloque con el botón central del mouse también copiará el color del elemento",
                     "creativelightintensity": "Determina la intensidad de la luz del modo creativo (L)",
@@ -7673,6 +7851,7 @@
                     }
                 }
             },
+            "selectedworld": "Mundo seleccionado: {0}",
             "sort": {
                 "alphabetically": "Alfabéticamente",
                 "alphabeticallydesc": "Alfabéticamente (DESC)",
@@ -7687,8 +7866,9 @@
             },
             "worldlistentry": {
                 "beforeconversion": "Antes de la conversión",
+                "corrupt": "Corrupto",
                 "created": "Creado: {0}",
-                "seed": "Seed: {0}",
+                "seed": "Semilla: {0}",
                 "version": "Versión: {0}"
             }
         },
@@ -7745,6 +7925,9 @@
                 "clothes": {
                     "absorbency": "Impermeabilidad: {0}",
                     "attractlightning": "Podría atraer rayos",
+                    "breathability": "Transpirabilidad: {0}",
+                    "cooling": "Enfriamiento: {0}",
+                    "covers": "Cubre",
                     "divinggoggles": "Proporciona visión clara bajo el agua",
                     "flippers": "Natación rápida",
                     "insulation": "Aislamiento: {0}",
@@ -7765,6 +7948,7 @@
                     "stopsbleeding": "Detiene hemorragias",
                     "thirst": "Sed: {0}"
                 },
+                "contains": "Contiene: <b>{0}</b>",
                 "creator": "Creador: {0}",
                 "hotkey": "Atajo: {0}",
                 "id": "ID: {0}",
@@ -7773,6 +7957,10 @@
                 "musictrack": "Pista musical: {0}",
                 "name": "Nombre: {0}",
                 "putinequipmentslot": "Coloca este objeto en una ranura de equipamiento \npara acceso rápido",
+                "size": "Tamaño: {0} x {1} x {2}",
+                "storages": {
+					"slots": "Ranuras de almacenamiento: {0}"
+				},
                 "strength": "Fuerza: {0}",
                 "weapons": {
                     "damage": "Daño: {0}",
@@ -7787,6 +7975,12 @@
                 "buttonhelp": "Ayuda",
                 "buttonroutehome": "Mostrar ruta al punto de aparición",
                 "deathmarker": "Moriste aquí..."
+            },
+            "npceditmessagebox": {
+                "animation": "Establecer animación",
+                "clothes": "Cambiar ropa",
+                "item": "Equipar objeto",
+                "transform": "Cambiar posición"
             },
             "texteditor": {
                 "anchorleft": "Alinear texto a la izquierda",
