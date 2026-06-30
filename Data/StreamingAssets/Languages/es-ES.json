@@ -555,6 +555,9 @@
         "xmashat": {
             "desc": "Un gorro rojo y blanco de Santa Claus",
             "name": "Gorro navideño"
+        },
+        "pegleg":{
+            "name": "Pata de palo"
         }
     },
     "color": {
@@ -4717,7 +4720,7 @@
         },
         "tub": {
             "desc": "Un recipiente que puede llenarse con agua. Cuando se coloca afuera, puede llenarse con lluvia.",
-            "name": "Cuba"
+            "name": "Cubeta"
         },
         "vaultdoor1": {
             "name": "Puerta metálica reforzada"
