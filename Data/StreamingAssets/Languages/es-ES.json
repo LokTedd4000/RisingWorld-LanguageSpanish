@@ -114,11 +114,11 @@
             "rock": "Roca",
             "rubble": "Escombros",
             "saltwater": "Agua salada",
-            "sandbeach": "Arena (playa)",
-            "sanddesert": "Arena (desierto)",
+            "sandbeach": "Arena de playa",
+            "sanddesert": "Arena de desierto",
             "sandstone1": "Arenisca",
             "sandstone2": "Arenisca",
-            "sandunderwater": "Arena (marina)",
+            "sandunderwater": "Arena marina",
             "snow": "Nieve",
             "stone": "Piedra",
             "underwater": "Algas",
@@ -2375,7 +2375,7 @@
             "name": "Arenisca"
         },
         "sandunderwater": {
-            "name": "Arena (húmeda)"
+            "name": "Arena húmeda"
         },
         "sapling": {
             "name": "Brote"
@@ -2430,8 +2430,8 @@
             "name": "Plántula (cáñamo)"
         },
         "saplinghickory": {
-            "desc": "Un brote de nogal americano (hickory)",
-            "name": "Brote (hickory)"
+            "desc": "Un brote de nogal americano",
+            "name": "Brote (Nogal americano)"
         },
         "saplinglettuce": {
             "name": "Plántula (lechuga)"
@@ -4745,6 +4745,9 @@
             "name": "Veleta"
         },
         "wickerchest": {
+            "name": "Cofre de mimbre"
+        },
+        "wickerbox": {
             "name": "Cofre de mimbre"
         },
         "wigwam": {
