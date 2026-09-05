@@ -471,10 +471,10 @@
             "name": "Casco de safari"
         },
         "samuraiarmor": {
-        "name": "Armadura de samurái"
+            "name": "Armadura de samurái"
         },
         "samuraiarmorhelmet": {
-        "name": "Casco de samurái"
+            "name": "Casco de samurái"
         },
         "sandals": {
             "name": "Sandalias"
@@ -486,7 +486,7 @@
             "name": "Pantalones cortos"
         },
         "slippers": {
-        "name": "Pantuflas"
+            "name": "Pantuflas"
         },
         "sneakers1": {
             "name": "Zapatillas"
@@ -501,7 +501,7 @@
             "name": "Sombrero mexicano"
         },
         "spacearmor": {
-        "name": "Armadura de alta tecnología"
+            "name": "Armadura de alta tecnología"
         },
         "sunglasses1": {
             "name": "Gafas de sol"
@@ -1437,6 +1437,7 @@
     },
     "item": {
         "aluminiumingot": {
+            "desc": "Un lingote de aluminio puro",
             "name": "Lingote de aluminio"
         },
         "aluminiumore": {
@@ -1590,6 +1591,7 @@
             "name": "Manteca"
         },
         "candycane": {
+            "desc": "Mala para los dientes, buena para el alma",
             "name": "Bastón de caramelo"
         },
         "canteen": {
@@ -1856,6 +1858,7 @@
             "name": "Piel de cabra (negra)"
         },
         "goldingot": {
+            "desc": "Un lingote de oro puro",
             "name": "Lingote de oro"
         },
         "goldore": {
@@ -1959,6 +1962,7 @@
             "name": "Hielo"
         },
         "ironingot": {
+            "desc": "An ingot of pure iron",
             "name": "Lingote de hierro"
         },
         "ironore": {
@@ -2004,6 +2008,9 @@
         "leatherbag": {
             "name": "Bolso grande de cuero"
         },
+        "lemon": {
+			"name": "Limón"
+		},
         "lettuce": {
             "name": "Lechuga"
         },
@@ -2431,8 +2438,12 @@
         },
         "saplinghickory": {
             "desc": "Un brote de nogal americano",
-            "name": "Brote (Nogal americano)"
+            "name": "Brote (nogal americano)"
         },
+        "saplinglemon": {
+			"desc": "Un brote de limón",
+			"name": "Brote (limonero)"
+		},
         "saplinglettuce": {
             "name": "Plántula (lechuga)"
         },
@@ -2701,9 +2712,13 @@
             "name": "Pedazo de tronco (ciprés)"
         },
         "treeloghickory": {
-            "desc": "Pedazo de tronco de nogal americano (hickory)",
-            "name": "Pedazo de tronco (hickory)"
+            "desc": "Pedazo de tronco de nogal americano (nogal americano)",
+            "name": "Pedazo de tronco (nogal americano)"
         },
+        "treeloglemon": {
+			"desc": "Pedazo de tronco de limonero",
+			"name": "Pedazo de tronco (limonero)"
+		},
         "treeloglondonplane": {
             "desc": "Pedazo de tronco de plátano de Londres",
             "name": "Pedazo de tronco (plátano de Londres)"
@@ -2767,6 +2782,7 @@
             "name": "Filete de atún seco"
         },
         "tungsteningot": {
+            "desc": "Un lingote de tungsteno puro",
             "name": "Lingote de tungsteno"
         },
         "tungstenore": {
@@ -2910,6 +2926,8 @@
             "cannotplace": "No se puede colocar el plano",
             "created": "¡Plano creado! \n\n¡Ahora podés fabricarlo en la mesa de planos!",
             "missingblueprinttable": "¡No hay una mesa de planos cerca!",
+            "missingresources": "¡No tienes todos los recursos necesarios en tu inventario para colocar este plano!",
+	        "missingresourceschest": "Recuerda que también puedes poner los recursos en un cofre cercano",
             "terrainalwaysgrid": "No podés desactivar la cuadrícula si el plano contiene terreno",
             "terrainnopivots": "¡No podés usar el ajuste modular si el plano contiene terreno!"
         },
@@ -2958,6 +2976,7 @@
             "tiling": "Escala de textura  {0}"
         },
         "clothes": {
+            "helmetlamp": "Puedes encender la luz del casco pulsando {0}",
             "rightclick": "Hacé clic derecho para quitarte la ropa"
         },
         "consume": {
@@ -3006,6 +3025,7 @@
             "koiburned": "Comiste un koi quemado",
             "koicooked": "Comiste un koi cocido",
             "koidried": "Comiste un koi seco",
+            "lemon": "Comiste un limón",
             "lettuce": "Comiste un poco de lechuga",
             "lettuceleaves": "Comiste hojas de lechuga",
             "medkit": "Usaste un botiquín para curar tus heridas",
@@ -3089,7 +3109,9 @@
             "gutanimalwithknife": "Usá un cuchillo para destripar este cadáver",
             "guttinganimal": "Destripando animal...",
             "identity": "Su nombre era {0}",
-            "unknownidentity": "Su nombre es desconocido"
+            "identityfemale": "Su nombre era {0}",
+            "unknownidentity": "Su nombre es desconocido",
+            "unknownidentityfemale": "Su nombre es desconocido"
         },
         "crafting": {
             "missingcraftingstation": "¡No hay una estación de trabajo adecuada cerca!",
@@ -3099,17 +3121,20 @@
             "requiresadvancedworkbench": "¡Necesitás una mesa de trabajo más avanzada para fabricar este objeto!"
         },
         "creative": {
-            "areacreate": "Herramienta de creación de área",
+            "areacreate": "Herramienta de creación de áreas",
             "areacreated": "Área creada",
             "areadeleted": "Área eliminada",
-            "areaedit": "Herramienta de edición de área",
+            "areaedit": "Herramienta de edición de áreas",
             "areareset": "Selección reiniciada",
+            "arearesize": "Redimensionar área\n\nAjustá la selección como de costumbre y mantené presionado el botón derecho del mouse para aplicar los cambios",
+            "arearesizecancelled": "Redimensionamiento cancelado",
+            "arearesizenotsupported": "Las áreas esféricas no se pueden redimensionar",
             "arearotation": "Rotación del área: {0}°",
             "arearotationresethint": "Reiniciar con {0}+{1}",
             "brushshapecircle": "Forma del pincel: Círculo",
             "brushshaperect": "Forma del pincel: Cuadrado",
             "brushsize": "Tamaño del pincel: {0}",
-            "confirmremoval": "¿Realmente querés eliminar todos los elementos dentro del área seleccionada?\n<align=left><color=yellow>\n\\t{0} construcciones\n\\t{1} objetos\n\\t{2} plantas\n</color></align>",
+            "confirmremoval": "¿Realmente querés eliminar todos los elementos dentro del área seleccionada?\n<align=left><color=yellow>\n\\t{0} construcciones\n\\t{1} objetos\n\\t{2} plantas\n\\t{3} ítems\n</color></align>",
             "confirmremovalheader": "Confirmar eliminación",
             "continuouseditoff": "Edición continua desactivada",
             "continuousediton": "Edición continua activada",
@@ -3119,38 +3144,45 @@
             "disabled": "Modo creativo desactivado",
             "editcolor": "Cambiar colores",
             "editconstructions": "Editar elementos de construcción (Área)",
+            "editobjects": "Editar objetos (Área)",
             "editshape": "Cambiar formas",
-            "editsingleconstruction": "Editar un solo elemento de construcción",
+            "editsingleconstruction": "Editar elemento de construcción individual",
+            "editsingleobject": "Editar objeto individual",
             "edittexture": "Cambiar texturas",
             "enabled": "Modo creativo activado",
-            "lookatelementtoedit": "¡Por favor, mirá un elemento primero para poder editarlo!",
+            "lightoff": "Luz del modo creativo apagada",
+            "lighton": "Luz del modo creativo encendida",
+            "lookatelementtoedit": "¡Mirá un elemento primero para editarlo!",
             "modes": {
-                "area": "Modo: Herramientas de Área (F9)",
-                "edit": "Modo: Herramientas de Edición (F8)",
-                "placement": "Modo: Herramientas de Colocación (F6)",
-                "removal": "Modo: Herramientas de Eliminación (F7)",
-                "terrain": "Modo: Herramientas de Terreno (F5)"
+                "area": "Modo: Herramientas de área (F9)",
+                "edit": "Modo: Herramientas de edición (F8)",
+                "placement": "Modo: Herramientas de colocación (F6)",
+                "removal": "Modo: Herramientas de eliminación (F7)",
+                "terrain": "Modo: Herramientas de terreno (F5)"
             },
-            "onlyonwater": "¡Esta herramienta solo funciona sobre superficies de agua!",
+            "onlyonwater": "¡Esta herramienta solo funciona en superficies de agua!",
             "placeconstructions": "Colocar elementos de construcción",
             "placeforest": "Herramienta de forestación",
             "placeobjects": "Colocar objetos",
             "placevegetations": "Colocar vegetación",
             "removeall": "Eliminar todo",
             "removeconstructions": "Eliminar elementos de construcción",
+            "removeitems": "Eliminar ítems",
             "removeobjects": "Eliminar objetos",
             "removevegetations": "Eliminar vegetación",
             "selectareafirst": "Primero tenés que seleccionar un área",
             "selectedplant": "Planta seleccionada: {0}",
-            "selectedplanthint": "Abrir selección de planta con {0}",
-            "terrainaddsubtract": "Herramienta de Añadir / Restar",
-            "terrainarea": "Herramienta de selección de área de terreno",
-            "terrainpaint": "Herramienta de pintura",
+            "selectedplanthint": "Abrí la selección de plantas con {0}",
+            "terrainaddsubtract": "Herramienta de añadir / restar",
+            "terrainarea": "Herramienta de selección de área",
+            "terrainpaint": "Herramienta de pintar",
+            "terrainraiselower": "Herramienta de elevar / hundir",
             "terrainsmooth": "Herramienta de suavizado",
             "terrainwater": "Herramienta de agua",
             "terrainwaterarea": "Herramienta de selección de área de agua",
-            "terrainwaterpaint": "Herramienta de pintura de agua",
-            "toolnotavailableyet": "Esta herramienta aún no está disponible"
+            "terrainwaterpaint": "Herramienta de pintar agua",
+            "toolnotavailableyet": "Esta herramienta aún no está disponible",
+            "updatingarea": "Actualizando área..."
         },
         "drink": {
             "nosaltwater": "¡No podés beber agua salada!",
@@ -3268,8 +3300,18 @@
                 "timer": "El fuego artificial se disparará en {0} segundos"
             },
             "grappling": {
-                "dontlookoppositedirection": "No mires en la dirección opuesta mientras te estás izando",
+                "dontlookoppositedirection": "No mirés hacia la dirección contraria mientras te elevás",
+                "ropeend": "Llegaste al final de la cuerda",
                 "ropesnapped": "¡La cuerda se ha roto!"
+            },
+            "hotkey": {
+                "nocompass": "No tenés una brújula en tu inventario",
+                "nocompassequipment": "¡No tenés una brújula a mano!\n\nAsegurate de tener una en tus ranuras de equipamiento para poder equiparla rápidamente.",
+                "noheadlamp": "No tenés una linterna de cabeza ahora mismo",
+                "nomap": "No tenés un mapa en tu inventario",
+                "nomapequipment": "¡No tenés un mapa a mano!\n\nAsegurate de tener uno en tus ranuras de equipamiento para poder equiparlo rápidamente.",
+                "nowatch": "No tenés un reloj en tu inventario",
+                "nowatchequipment": "¡No tenés un reloj a mano!\n\nAsegurate de tener uno en tus ranuras de equipamiento para poder equiparlo rápidamente."
             },
             "itemstoohot": "Estos objetos están demasiado calientes para recogerlos",
             "itemtoohot": "Este objeto está demasiado caliente para recogerlo",
@@ -3438,6 +3480,7 @@
             "cannotgetmilk": "No podés obtener leche de este animal",
             "cannotgetmilkfrombull": "Solo se puede obtener leche de animales hembras.\nEste, sin embargo, es un toro",
             "cannotgetmilkfromcalf": "Este animal es demasiado joven para producir leche",
+            "cannotgetmilkstarving": "Este animal está demasiado débil para dar leche",
             "cannotgetmilkwhilelying": "No podés ordeñar a este animal mientras está acostado",
             "cannotride": "Todavía no podés montar este caballo",
             "delete": {
@@ -3455,18 +3498,22 @@
             "milkpregnancy": "Este animal ya no produce leche. Solo podés obtener leche después de que el animal haya tenido crías",
             "milkudder": "Para ordeñar a este animal, tenés que usar la ubre",
             "mount": {
-                "brokenbag": "No puedes acceder a esta alforja",
-                "findmountwhileriding": "¿Estarás montado en la montura ahora mismo...?",
-                "probablydead": "No se encontró la montura. Probablemente, lamentablemente, esté muerta...",
-                "removebagsfirst": "Primero debes quitar la alforja",
-                "removeitemsfirst": "Las alforjas aún contienen objetos.\nSácalos primero",
-                "saddlerequired": "Primero debes colocar una silla de montar",
-                "saddlerequiredforbags": "Primero debes colocar una silla de montar"
+                "brokenbag": "No podés acceder a esta alforja",
+                "findmountwhileriding": "Eh... ¿no será que estás montado justo ahora?",
+                "probablydead": "No se encontró la montura. Probablemente esté muerta, por desgracia...",
+                "removebagsfirst": "Primero tenés que quitar la alforja",
+                "removeitemsfirst": "Las alforjas todavía contienen objetos.\nSacalos primero",
+                "saddlerequired": "Primero tenés que colocar una silla de montar",
+                "saddlerequiredforbags": "Primero tenés que colocar una silla de montar",
+                "starving": "Tu montura se está muriendo de hambre...",
+                "tooweaktogallop": "Esta montura es demasiado débil para galopar"
             },
+            "nothungry": "Este animal no tiene hambre",
             "shearingsheep": "Esquilando oveja...",
             "shearsheepwithshears": "Necesitás tijeras para esquilar esta oveja",
             "tooyoungtoride": "Este animal es demasiado joven para montar",
-            "tooyoungtoshear": "Este cordero es demasiado joven para ser esquilado"
+            "tooyoungtoshear": "Este cordero es demasiado joven para ser esquilado",
+            "wrongfood": "A este animal no le interesa esta comida"
         },
         "objects": {
             "butterchurn": {
@@ -3479,7 +3526,8 @@
             "calendar": {
                 "currentdate": "Actualmente es el día {0} de {1}",
                 "remainingday": "Falta solo {0} día para {1}!",
-                "remainingdays": "Faltan {0} días para {1}"
+                "remainingdays": "Faltan {0} días para {1}",
+                "Año": "Year {0}"
             },
             "cannotpickup": "No podés recoger este objeto",
             "cannotplaceinwater": "No podés colocar este objeto en el agua",
@@ -3645,6 +3693,11 @@
             }
         },
         "storagefull": "No hay más espacio disponible",
+        "teleportpoint": {
+            "invalidname": "¡Nombre de punto de teletransporte inválido!",
+            "nametaken": "¡Ya existe un punto de teletransporte llamado '{0}'!",
+            "notfound": "¡No se encontró el punto de teletransporte '{0}'!"
+        },
         "vehicle": {
             "cannotaddimage": "No se pudo adjuntar la imagen",
             "cannotdeconstruct": "No podés desarmar este vehículo",
@@ -3671,30 +3724,32 @@
             "outofammo": "Sin munición"
         },
         "world": {
-            "createbackup": "¿Quieres crear una copia de seguridad de tu mundo?\n\nLas copias de seguridad se guardan en la carpeta \"Backups\" dentro del directorio del juego.\n\nTambién puedes restaurarlas haciendo clic derecho sobre el mundo en el menú de un jugador.",
-            "createbackupfirst": "¿Te gustaría crear primero una copia de seguridad de tu mundo?\n\nPodrás restaurarla en cualquier momento haciendo clic derecho sobre el mundo en el menú de un jugador.",
-            "createbackupfirsttitle": "¿Crear una copia de seguridad primero?",
+            "createbackup": "¿Querés crear una copia de seguridad de tu mundo?\n\nLas copias de seguridad se guardan en la carpeta \"Backups\" del directorio del juego.\n\nComo alternativa, también podés restaurarlas haciendo clic derecho sobre el mundo en el menú de un jugador",
+            "createbackupfirst": "¿Te gustaría crear primero una copia de seguridad de tu mundo?\n\nDespués podés restaurarla en cualquier momento haciendo clic derecho sobre el mundo en tu menú de un jugador",
+            "createbackupfirsttitle": "¿Crear primero una copia de seguridad?",
             "createbackuptitle": "Crear copia de seguridad del mundo",
-            "deletesector": "¿Realmente quieres eliminar el sector {0} {1}? Esto eliminará todos los fragmentos (chunks) en este sector (lo que también significa que todo lo construido allí se perderá).\n\n<b>Nota: Para verificar tu posición actual en el sector, puedes pulsar F3 y verás el sector actual en la parte superior.</b>\n\n<color=red>Pulsa Cancelar para abortar esta operación</color>",
-            "deletesectorconfirm": "Confirma nuevamente que deseas eliminar el sector. El sector contiene:\n<color=yellow>\n{0} fragmentos\n{1} elementos de construcción\n{2} objetos\n</color>\n<b>¡Después de eliminar el sector, no habrá forma de recuperar los fragmentos!</b>",
+            "deletechunk": "¿Realmente querés eliminar el sector {0} {1}? Esto reiniciará todos los cambios y eliminará todo lo que construiste en este sector.\n\nNota: Un sector tiene un tamaño de 32x32 bloques.\n\n<color=red>Presioná cancelar para anular esta operación</color>",
+            "deletechunkheader": "ELIMINAR SECTOR:  {0}   {1}",
+            "deletesector": "¿Realmente querés eliminar el sector {0} {1}? Esto eliminará todos los sectores de este sector (lo que también significa que todo lo construido allí será eliminado).\n\n<b>Nota: Para verificar tu posición actual de sector, podés presionar F3 para ver tu sector actual en la parte superior.</b>\n\n<color=red>Presioná cancelar para anular esta operación</color>",
+            "deletesectorconfirm": "Confirmá de nuevo que querés eliminar el sector. El sector contiene:\n<color=yellow>\n{0} sectores\n{1} elementos de construcción\n{2} objetos\n</color>\n<b>¡Después de eliminar el sector, no hay forma de restaurar los sectores!</b>",
             "deletesectorheader": "ELIMINAR SECTOR:  {0}   {1}",
             "outofbounds": "Estás fuera del área de juego permitida en este servidor",
-            "overridebiomeregion": "¿Realmente quieres sobrescribir la región climática del sector {0} | {1}?\n\n<color=red>Ten en cuenta que esto restablecerá completamente el sector, lo que significa que todo lo construido en él se eliminará de forma irreversible.</color>",
-            "overridebiomeregionheader": "SOBREESCRIBIR REGIÓN CLIMÁTICA DEL SECTOR  {0}   {1}",
-            "recover": "Esta herramienta intenta reparar mundos corruptos y recuperar la mayor cantidad de datos posible.\n\nTené en cuenta que esto no siempre puede funcionar y que tal vez no pueda restaurar todos los datos del mundo, dependiendo del grado de corrupción de los datos.\n\nEl juego creará una copia de seguridad del mundo corrupto antes de intentar repararlo.",
+            "overridebiomeregion": "¿Realmente querés sobrescribir la región climática del sector {0} | {1}?\n\n<color=red>Tené en cuenta que esto también reiniciará completamente el sector, lo que significa que todo lo construido en este sector será eliminado de forma irreversible!</color>",
+            "overridebiomeregionheader": "SOBRESCRIBIR REGIÓN CLIMÁTICA DEL SECTOR  {0}   {1}",
+            "recover": "Esta herramienta intenta reparar mundos dañados y restaurar tantos datos como sea posible.\n\nTené en cuenta que esto podría no funcionar siempre y podría no ser capaz de restaurar todos los datos del mundo, dependiendo del grado de corrupción de los datos.\n\nEl juego creará una copia de seguridad del mundo dañado antes de intentar repararlo.",
             "recoverfrommenuonly": "¡Solo podés ejecutar la reparación/recuperación del mundo desde el menú principal!",
-            "recovertitle": "Reparación de mundo: <color=yellow>{0}</color>",
-            "sectordeleted": "¿Realmente quieres eliminar el sector {0} {1}? Esto eliminará todos los fragmentos (chunks) en este sector (lo que también significa que todo lo construido allí se perderá).\n\nNota: Para verificar tu posición actual en el sector, puedes pulsar F3 y verás el sector actual en la parte superior.\n\n<color=red>Pulsa Cancelar para abortar esta operación</color>",
+            "recovertitle": "Reparación del mundo: <color=yellow>{0}</color>",
+            "sectordeleted": "¿Realmente querés eliminar el sector {0} {1}? Esto eliminará todos los sectores de este sector (lo que también significa que todo lo construido allí será eliminado).\n\nNota: Para verificar tu posición actual de sector, podés presionar F3 para ver tu sector actual en la parte superior.\n\n<color=red>Presioná cancelar para anular esta operación</color>",
             "undo": {
                 "blueprint": "DESHACER: ¡Plano eliminado!",
                 "confirmation": {
-                    "blueprint": "¿Realmente quieres deshacer la colocación del plano?\n\nDe lo contrario, este paso de deshacer se omitirá.\n\nNombre del plano: <b><color=yellow>{0}</color></b>",
+                    "blueprint": "¿Realmente querés deshacer el plano colocado?\n\nDe lo contrario, este paso de deshacer será omitido.\n\nNombre del plano:  <b><color=yellow>{0}</color></b>",
                     "header": "EJECUTAR DESHACER"
                 },
                 "construction": "DESHACER: ¡Elemento de construcción restaurado!",
-                "nomoresteps": "DESHACER: No hay más pasos para deshacer",
-                "notallowed": "¡La función de deshacer no está permitida en este servidor!",
-                "notready": "DESHACER: La acción de deshacer no está lista aún. Inténtalo de nuevo en unos segundos",
+                "nomoresteps": "DESHACER: No hay más pasos de deshacer para ejecutar",
+                "notallowed": "¡No está permitido deshacer en este servidor!",
+                "notready": "DESHACER: La acción de deshacer aún no está lista. Intentá de nuevo dentro de unos segundos",
                 "object": "DESHACER: ¡Objeto restaurado!",
                 "terrain": "DESHACER: ¡Terreno restaurado!",
                 "vegetation": "DESHACER: ¡Vegetación restaurada!"
@@ -4089,6 +4144,9 @@
         "brokenhandcart": {
             "name": "Carretilla rota"
         },
+        "brokenminecart": {
+			"name": "Vagón minero (destruido)"
+		},
         "bulkheadlamp1": {
             "name": "Lámpara de mamparo (ovalada)"
         },
@@ -4383,6 +4441,21 @@
             "desc": "Se usa para secar carne cruda. Esto conserva la carne, pero lleva mucho tiempo",
             "name": "Secador de carne"
         },
+        "minecart": {
+			"name": "Vagón de mina"
+		},
+		"minetracklong": {
+			"name": "Tracks (L)"
+		},
+		"minetrackrail": {
+			"name": "Vías (riel)"
+		},
+		"minetrackshort": {
+			"name": "Vías (S)"
+		},
+		"minetrackswitch": {
+			"name": "Vías (desvío)"
+		},
         "missingobject": {
             "name": "Objeto faltante"
         },
@@ -4636,6 +4709,10 @@
             "desc": "Un bloque de color sólido, siempre iluminado de manera uniforme, sin sombreado ni sombras",
             "name": "Bloque técnico"
         },
+        "technicalwaterdrops": {
+			"desc": "Un efecto de partículas de gotas de agua configurable",
+	        "name": "Gotas de agua técnicas"
+		},
         "teddy": {
             "name": "Osito de peluche"
         },
@@ -4791,6 +4868,7 @@
             "create": "Determina si el jugador tiene permiso para crear nuevas áreas",
             "delete": "Determina si el jugador tiene permiso para eliminar áreas existentes",
             "removeplayer": "Determina si el jugador tiene permiso para eliminar a otro jugador de un área",
+            "resize": "Determina si el jugador tiene permiso para cambiar el tamaño de un área",
             "setclaimable": "Determina si el jugador tiene permiso para cambiar el estado reclamable de un área",
             "setname": "Determina si el jugador tiene permiso para cambiar el nombre de un área",
             "setpermission": "Determina si el jugador tiene permiso para cambiar los permisos predeterminados de un área",
@@ -5070,6 +5148,7 @@
         "icechest": "Cofre congelado",
         "icerock": "Roca congelada",
         "ivy": "Hiedra",
+        "lemon": "Limonero",
         "lettuce": "Lechuga",
         "londonplane": "Plátano de sombra",
         "mesquite": "Mezquite",
@@ -5080,6 +5159,10 @@
         "palm": "Palmera",
         "pillarcoral": "Coral pilar",
         "pinealeppo": "Pino de Alepo",
+        "pinealeppo2": "Pino de Alepo 2",
+		"pinealeppo3": "Pino de Alepo 3",
+		"pinealeppo4": "Pino de Alepo 4",
+		"pinealeppo5": "Pino de Alepo 5",
         "pocillopora": "Coral (pocillopora)",
         "potato": "Planta de papa",
         "pumpkin": "Calabaza",
@@ -5156,6 +5239,7 @@
             "nopermission": "<Sin permiso>",
             "removeplayer": "Eliminar jugador",
             "removeplayermessage": "Selecciona el/los jugador(es) que deseas eliminar de esta área",
+            "resize": "Redimensionar área",
             "setname": "Establecer nombre",
             "setnamemessage": "Asigna un nuevo nombre a esta área",
             "setpermission": "Establecer permiso predeterminado",
@@ -5165,13 +5249,14 @@
             "setprioritymessage": "Establece la prioridad (entero) que deseas asignar a esta área. Predeterminado: 0",
             "showname": "Mostrar nombre del área: {0}\n(al entrar al área)",
             "tooltips": {
-                "addplayer": "Agrega un jugador al área.\n\nEsto te permite sobrescribir el permiso dentro de esta área solo para ese jugador (por lo tanto, el permiso predeterminado del área ya no estará activo para ese jugador)",
+                "addplayer": "Agrega un jugador al área.\n\nEsto te permite sobrescribir el permiso dentro de esta área solo para este jugador (así que el permiso por defecto del área ya no está activo para este jugador)",
                 "delete": "Elimina esta área (mantener presionado)",
                 "removeplayer": "Elimina un jugador previamente agregado del área",
-                "setname": "Asigna un nombre personalizado al área",
-                "setpermission": "Establece el <u>permiso predeterminado</u> para esta área.\n\nEste permiso se aplica a todos los jugadores que ingresen al área (a menos que se les haya asignado un permiso específico)",
-                "setpriority": "Establece una prioridad para esta área (prioridad predeterminada: 0).\n\nEsto es relevante si hay áreas superpuestas: si el jugador está dentro de más de una área al mismo tiempo, el área con la prioridad más alta será la activa (para permisos, etc.)",
-                "showname": "Determina si el nombre del área debe ser visible para el jugador al ingresar al área"
+                "resize": "Redimensiona el área.\n\nEl área se convierte en una selección que puede ajustarse como de costumbre. \"Colocar\" la selección aplica los nuevos límites al área",
+                "setname": "Establece un nombre personalizado para el área",
+                "setpermission": "Establece el <u>permiso por defecto</u> para esta área.\n\nEste permiso está activo para cada jugador que entra al área (a menos que este jugador haya sido agregado al área con un permiso específico)",
+                "setpriority": "Establece una prioridad para esta área (prioridad por defecto: 0).\n\nEsto es relevante si hay áreas superpuestas - es decir, si el jugador está dentro de más de un área simultáneamente, el área con la mayor prioridad estará activa (para permisos, etc.)",
+                "showname": "Determina si el nombre del área debe ser visible para el jugador cuando entra al área"
             }
         },
         "areaselect": {
@@ -5241,6 +5326,8 @@
         "creative": {
             "area": "Herramientas de área",
             "edit": "Herramientas de edición",
+            "lightoff": "Luz creativa apagada",
+			"lighton": "Luz creativa encendida",
             "normal": "Modo normal",
             "npc": "Herramientas de PNJ",
             "placement": "Herramientas de colocación",
@@ -5282,6 +5369,8 @@
                 "setoffnow": "Encender ahora",
                 "timer": "Configurar temporizador"
             },
+            "headlampoff": "Faro apagado",
+			"headlampon": "Faro encendido",
             "measuringtape": {
                 "precision": {
                     "default": "1 decimal",
@@ -5299,7 +5388,15 @@
             },
             "pickup": "Recoger",
             "place": "Colocar objeto",
-			"unequip": "Desequipar objeto"
+            "quickclock": "Mostrar reloj",
+            "quickcompass": "Mostrar brújula",
+            "quickmap": "Mostrar mapa",
+            "randomrotation": "Rotación aleatoria\n<#FFFF00>{0}<#FFFFFF>",
+            "reequip": "Equipar objeto",
+            "tooltips": {
+                "randomrotation": "Si está activado, se aplicará una rotación aleatoria cada vez que coloques el objeto"
+            },
+            "unequip": "Desequipar objeto"
         },
         "mount": {
             "mount": "Montar",
@@ -5316,8 +5413,14 @@
                 "sleep": "Dormir"
             },
             "blueprints": "Planos",
+            "butterchurn": {
+				"close": "Cerrar",
+				"open": "Abrir",
+				"takebutter": "Tomar mantequilla"
+			},
             "close": "Cerrar",
             "crafting": "Fabricación",
+            "edit": "Editar",
             "fire": {
                 "extinguish": "Apagar",
                 "ignite": "Encender"
@@ -5369,6 +5472,7 @@
             "seating": {
                 "sitdown": "Sentarse"
             },
+            "settings": "Ajustes",
             "sign": {
                 "edittext": "Editar texto"
             },
@@ -5470,6 +5574,149 @@
             "forceworld": "Forzar alineación mundial"
         }
     },
+    "statistics": {
+        "category": {
+            "animals": "Animales",
+            "building": "Construcción",
+            "combat": "Combate",
+            "deaths": "Muertes",
+            "distance": "Distancias",
+            "fishing": "Pesca",
+            "food": "Comida y procesamiento",
+            "general": "General",
+            "items": "Objetos",
+            "mining": "Minería",
+            "nature": "Naturaleza y agricultura",
+            "time": "Tiempo"
+        },
+        "stat": {
+            "aluminiummined": "Aluminio extraído",
+            "animalsfed": "Animales alimentados",
+            "animalskilled": "Animales eliminados",
+            "animalsskinned": "Animales despellejados",
+            "animalstamed": "Animales domesticados",
+            "arrowsfired": "Flechas disparadas",
+            "arrowspickedup": "Flechas recogidas",
+            "blobfishcatched": "Peces gota atrapados",
+            "blueprintscreated": "Planos creados",
+            "blueprintsplaced": "Planos colocados",
+            "breadbaked": "Pan horneado",
+            "bullseyeshit": "Dianas acertadas",
+            "bullseyeshitdistanceover100": "Dianas acertadas a más de 100 m",
+            "bullseyeshitdistanceover200": "Dianas acertadas a más de 200 m",
+            "bullseyeshitmaxdistance": "Diana más lejana acertada",
+            "campfiresplaced": "Fogatas colocadas",
+            "chatmessagessent": "Mensajes de chat enviados",
+            "clocksplaced": "Relojes colocados",
+            "coalmined": "Carbón extraído",
+            "constructionsdeconstructed": "Elementos de construcción desmontados",
+            "constructionsdestroyed": "Elementos de construcción destruidos",
+            "constructionsplaced": "Elementos de construcción colocados",
+            "deaths": "Muertes",
+            "distancebyboat": "Distancia en bote",
+            "distancebymotorboat": "Distancia en lancha a motor",
+            "distancebymount": "Distancia a caballo",
+            "distancebyrowboat": "Distancia en bote a remo",
+            "distancebysailboat": "Distancia en velero",
+            "distancebyvehicle": "Distancia en vehículo",
+            "distanceclimbed": "Distancia escalada",
+            "distancefallen": "Distancia caída",
+            "distanceflown": "Distancia volada",
+            "distanceswum": "Distancia nadada",
+            "distancewalked": "Distancia caminada",
+            "explosionscaused": "Explosiones causadas",
+            "fireworkstriggered": "Fuegos artificiales lanzados",
+            "fishbonescatched": "Espinas de pescado atrapadas",
+            "fishcatched": "Peces atrapados",
+            "fishcooked": "Pescado cocinado",
+            "foodconsumed": "Comida consumida",
+            "furnacesplaced": "Hornos colocados",
+            "goldmined": "Oro extraído",
+            "grasscut": "Pasto cortado",
+            "grassplanted": "Pasto plantado",
+            "headshots": "Disparos a la cabeza",
+            "hellstonemined": "Piedra infernal extraída",
+            "humanskilled": "PNJ humanos eliminados",
+            "imagesuploaded": "Imágenes subidas",
+            "ironmined": "Hierro extraído",
+            "itemscrafted": "Objetos fabricados",
+            "itemsdropped": "Objetos tirados",
+            "itemspickedup": "Objetos recogidos",
+            "journalopened": "Diario abierto",
+            "junkcatched": "Basura atrapada",
+            "killedbyanimals": "Muertes por animales",
+            "killedbyfalldamage": "Muertes por daño de caída",
+            "killedbyfire": "Muertes por fuego",
+            "killedbynpcs": "Muertes por PNJ",
+            "killedbyplayers": "Muertes por jugadores",
+            "killedbytraps": "Muertes por trampas",
+            "killsbyarrowsdistanceless5": "Eliminaciones con flecha a menos de 5 m",
+            "killsbyarrowsdistanceover100": "Eliminaciones con flecha a más de 100 m",
+            "killsbyarrowsdistanceover200": "Eliminaciones con flecha a más de 200 m",
+            "killsbyarrowsmaxdistance": "Eliminación más lejana con flecha",
+            "killsbyshotsdistanceless5": "Eliminaciones con arma de fuego a menos de 5 m",
+            "killsbyshotsdistanceover100": "Eliminaciones con arma de fuego a más de 100 m",
+            "killsbyshotsdistanceover200": "Eliminaciones con arma de fuego a más de 200 m",
+            "killsbyshotsmaxdistance": "Eliminación más lejana con arma de fuego",
+            "lampsplaced": "Lámparas colocadas",
+            "leathertanned": "Cuero curtido",
+            "lootcatched": "Bolsas de botín atrapadas",
+            "mapmarkerscreated": "Marcadores de mapa creados",
+            "mapmarkersdeleted": "Marcadores de mapa eliminados",
+            "meatcooked": "Carne cocinada",
+            "meatgathered": "Carne recolectada",
+            "medicalitemsused": "Ítems médicos usados",
+            "nightsskipped": "Noches saltadas",
+            "npcskilled": "PNJ eliminados",
+            "objectsdeconstructed": "Objetos desmontados",
+            "objectsdestroyed": "Objetos destruidos",
+            "objectsplaced": "Objetos colocados",
+            "oresmined": "Minerales extraídos",
+            "oressmelted": "Minerales fundidos",
+            "ovensplaced": "Hornos colocados",
+            "pastriesbaked": "Repostería horneada",
+            "plantscollected": "Plantas recolectadas",
+            "plantscut": "Plantas cortadas",
+            "plantsplanted": "Plantas sembradas",
+            "playerskilled": "Jugadores eliminados",
+            "postersplaced": "Pósters colocados",
+            "rocksdestroyed": "Rocas destruidas",
+            "rocksplaced": "Rocas colocadas",
+            "saplingspickedup": "Brotos recogidos",
+            "serverjoined": "Servidores unidos",
+            "shootingtargetshit": "Blancos de tiro acertados",
+            "shootingtargetshitdistanceover100": "Blancos acertados a más de 100 m",
+            "shootingtargetshitdistanceover200": "Blancos acertados a más de 200 m",
+            "shootingtargetshitmaxdistance": "Blanco más lejano acertado",
+            "shotsfired": "Disparos realizados",
+            "shrimpcatched": "Camarones atrapados",
+            "skeletonskilled": "Esqueletos eliminados",
+            "spearsthrown": "Lanzas arrojadas",
+            "stonemined": "Piedra extraída",
+            "sulfurmined": "Azufre extraído",
+            "timefishing": "Tiempo pescando",
+            "timeflown": "Tiempo en modo vuelo",
+            "timepetting": "Tiempo acariciando animales",
+            "timepiano": "Tiempo tocando piano",
+            "timeplayed": "Tiempo de juego",
+            "timespentinbed": "Tiempo en cama o tienda",
+            "timespentincave": "Tiempo en cuevas",
+            "timespentindoor": "Tiempo bajo techo",
+            "timespentinhell": "Tiempo en el infierno",
+            "timespentinwater": "Tiempo en el agua",
+            "timespentoutdoor": "Tiempo al aire libre",
+            "timespentunderwater": "Tiempo bajo el agua (buceando)",
+            "torchesplaced": "Antorchas colocadas",
+            "treelogspickedup": "Troncos recogidos",
+            "treescut": "Árboles talados",
+            "treesplanted": "Árboles plantados",
+            "treestumpscut": "Tocones removidos",
+            "tungstenmined": "Tungsteno extraído",
+            "woolspun": "Lana hilada",
+            "workbenchesplaced": "Mesas de trabajo colocadas",
+            "worldsloaded": "Mundos cargados"
+        }
+    },
     "time": {
         "description": {
             "aroundminutesago": "Hace aproximadamente {0} minutos",
@@ -5554,6 +5801,7 @@
                 "exportblueprint": "¿Quieres exportar el plano al formato .obj? El archivo se guardará en la carpeta \"Export\" dentro del directorio del juego.\n\n¡Ten en cuenta que solo se exportarán los elementos de construcción y que las texturas no estarán incluidas!",
                 "exportblueprintheader": "Exportar plano (.obj)",
                 "exporting": "Exportando...\n\n<size=50%>Esto puede tomar un tiempo</size>",
+                "exportsuccessful": "Plano exportado correctamente ({0} ms)!\n\n<color=yellow>Archivo: {1}</color>",
                 "renameblueprint": "¿Realmente quieres renombrar este plano?",
                 "renameblueprintheader": "Renombrar plano",
                 "saveerror": "No se pudo guardar el archivo del plano en el disco duro.\n\n<color=red>Error: {0}</color>\n\nRuta: {1}",
@@ -5910,9 +6158,25 @@
                 "headeritems": "Ítems",
                 "headerobjects": "Objetos"
             },
+            "objects": {
+				"footer": "Doble clic para seleccionar un objeto",
+				"header": "Seleccioná un objeto"
+			},
             "plants": {
                 "footer": "Doble clic para seleccionar una planta / objeto",
                 "header": "Seleccioná una planta u objeto"
+            },
+            "teleport": {
+                "delete": "Eliminar punto de teletransporte",
+                "deleteheader": "Eliminar punto de teletransporte",
+                "deletetext": "¿Realmente querés eliminar el punto de teletransporte '{0}'?",
+                "footer": "<smallcaps>Hacé doble clic para teletransportarte\nEscribí <color=yellow>tp create</color> en la consola para crear un nuevo punto de teletransporte</smallcaps>",
+                "global": "Puntos de teletransporte globales",
+                "header": "Puntos de teletransporte",
+                "own": "Tus puntos de teletransporte",
+                "rename": "Renombrar punto de teletransporte",
+                "renameheader": "Renombrar punto de teletransporte",
+                "renametext": "Ingresá un nuevo nombre para el punto de teletransporte:"
             },
             "terrain": {
                 "footer": "Doble clic para seleccionar un material",
@@ -5985,6 +6249,7 @@
                 "coconut": {
                     "cut": "Cortar coco"
                 },
+                "drop": "Soltar",
                 "explosive": {
                     "fuse": "Encender mecha",
                     "place": "Colocar",
@@ -5999,7 +6264,8 @@
                     "reelin": "Recoger (MANTENER)"
                 },
                 "food": {
-                    "eat": "Comer"
+                    "eat": "Comer",
+                    "feedanimal": "Alimentar animal"
                 },
                 "grapplinggun": {
                     "cut": "Cortar cuerda",
@@ -6017,6 +6283,9 @@
                     "gutanimal": "Desollar animal (MANTENER)",
                     "tanningrack": "Procesar a cuero (MANTENER)"
                 },
+                "lettuce": {
+					"cut": "Romper la lechuga"
+				},
                 "map": {
                     "hidecursor": "Ocultar cursor",
                     "lowermap": "Bajar mapa",
@@ -6074,6 +6343,9 @@
                     "sharpenandrepair": "Afilar y reparar arma (MANTENER)"
                 }
             },
+            "npc": {
+				"pet": "Animal de compañía"
+			},
             "objects": {
                 "header": "Ayuda: Objetos",
                 "modular": "Activa o desactiva el <color=#BEFAA4>ajuste modular de pivote</color>, es decir, el objeto se ajusta automáticamente a otro. \n¡Solo compatible con ciertos objetos!",
@@ -6141,6 +6413,10 @@
             }
         },
         "hud": {
+            "blueprint": {
+				"moreresources": "+{0} más",
+				"resources": "Recursos necesarios"
+			},
             "building": {
                 "alignment": {
                     "default": "Predeterminado",
@@ -6227,6 +6503,9 @@
                             "terrainpainttool": {
                                 "label": "Pintar"
                             },
+                            "terrainraiselowertool": {
+								"label": "Subir/Bajar"
+							},
                             "terrainsmoothtool": {
                                 "label": "Suavizar"
                             },
@@ -6243,6 +6522,11 @@
                             "label": "Presioná  <b>J</b>  para abrir el diario y obtener ayuda e información"
                         }
                     },
+                    "leftcontainer": {
+						"blueprintresourcescontainer": {
+							"blueprintresourcesheader": "Recursos necesarios"
+						}
+					},
                     "righttopcontainer": {
                         "creativeselectortool": {
                             "label": "---"
@@ -6260,29 +6544,41 @@
         "ingamemenu": {
             "screen": {
                 "pausemenucontainer": {
-                "buttoncontainer": {
-                    "backupbutton": "Crear copia de seguridad del mundo",
-                    "consolebutton": "Consola",
-                    "friendsbutton": "Amigos",
-                    "mainmenubutton": "Volver al menú principal",
-                    "permissionsbuttoncontainer": {
-                    "permissionsbutton": "Permisos"
+                    "buttoncontainer": {
+                        "backupbutton": "Crear copia de seguridad del mundo",
+                        "consolebutton": "Consola",
+                        "friendsbutton": "Amigos",
+                        "mainmenubutton": "Volver al menú principal",
+                        "permissionsbuttoncontainer": {
+                            "permissionsbutton": "Permisos"
+                        },
+                        "quitbutton": "Salir",
+                        "respawnbutton": "Reaparecer",
+                        "settingsbutton": "Configuración",
+                        "statisticsbutton": "Estadísticas"
                     },
-                    "quitbutton": "Salir",
-                    "respawnbutton": "Reaparecer",
-                    "settingsbutton": "Configuración"
-                },
-                "pauselabel": "- pausa -"
+                    "pauselabel": "- pausa -"
                 },
                 "permissionmenucontainer": {
-                "listcontainer": {
-                    "backbutton": "Atrás",
-                    "permissionheaderlabel": "Permisos actuales"
-                }
+                    "listcontainer": {
+                        "backbutton": "Atrás",
+                        "permissionheaderlabel": "Permisos actuales"
+                    }
                 },
                 "reportbutton": {
-                "text": "Enviar\ninforme"
-                }
+                    "text": "Enviar\ninforme"
+                },
+                "statisticsmenucontainer": {
+					"listcontainer": {
+						"backbutton": "Atrás",
+						"statisticsheaderlabel": "Estadísticas",
+						"statisticssubheaderlabel": "Estadísticas para este mundo",
+						"tableheader": {
+							"statcolumnlabel": "Estadísticas",
+							"valuecolumnlabel": "Valor"
+						}
+					}
+				}
             },
             "tooltips": {
                 "reportbutton": "Haz clic aquí para enviarnos un informe de error.\n\nTambién puedes escribir 'report' en la consola para hacerlo"
@@ -6342,6 +6638,130 @@
                             "backtocontents": "<- Volver al índice>",
                             "nextpage": "Página siguiente ->",
                             "previouspage": "<- Página anterior"
+                        },
+                        "page_animals": {
+                            "animals_breeding": {
+                                "header": "Cría de animales",
+                                "image1": {
+                                    "label": "Cerda con recién nacidos"
+                                },
+                                "image2": {
+                                    "label": "Algún tiempo antes de dar a luz, el animal necesita mucho descanso"
+                                },
+                                "image3": {
+                                    "label": "Se puede reconocer a un animal embarazado por su vientre hinchado (derecha)"
+                                },
+                                "text1": "Muchos animales pueden tener crías. Para controlar esto de manera efectiva, se deben cumplir varias condiciones:\n\n1. Un macho y una hembra deben estar juntos\n2. Ambos animales deben estar alimentados adecuadamente\n3. Los animales deben estar acostumbrados a vos para que se sientan seguros"
+                            },
+                            "animals_catching": {
+                                "header": "Captura de animales",
+                                "image1": {
+                                    "label": "¡Podés cargar animales pequeños en tus brazos!"
+                                },
+                                "image2": {
+                                    "label": "Usá una soga para atrapar animales. Pero no lo intentes con depredadores..."
+                                },
+                                "image3": {
+                                    "label": "La comida es una buena forma de atraer animales"
+                                },
+                                "text1": "Hay tres formas de atrapar un animal:",
+                                "text2": "1. Los animales pequeños se pueden recoger. Esto incluye conejos, gallinas, pero también la mayoría de las crías",
+                                "text3": "2. Usá una soga para atrapar animales. Te seguirá automáticamente. Mantené {PrimaryAction} presionado para tirar del animal hacia vos",
+                                "text4": "3. Usá comida para atraer a un animal hacia un lugar. Tenela en tus manos o tirala al suelo"
+                            },
+                            "animals_feeding": {
+                                "feedingtable": {
+                                    "row0": {
+                                        "c1": "Animal",
+                                        "c2": "Alimento",
+                                        "c3": "Tóxico"
+                                    },
+                                    "row1": {
+                                        "c1": "Cerdos",
+                                        "c2": "<color=#006300>Manzanas, Maíz, Papas (cocidas)</color>, Verduras y Frutas, Trigo, Carne, Pan, Huevos, Gusanos",
+                                        "c3": "-"
+                                    },
+                                    "row2": {
+                                        "c1": "Vacas",
+                                        "c2": "<color=#006300>Manzanas, Zanahorias, Remolachas azucareras, Maíz</color>, Verduras y Frutas, Trigo",
+                                        "c3": "-"
+                                    },
+                                    "row3": {
+                                        "c1": "Ovejas",
+                                        "c2": "<color=#006300>Lechuga</color>, Verduras y Frutas",
+                                        "c3": "Grano"
+                                    },
+                                    "row4": {
+                                        "c1": "Cabras",
+                                        "c2": "<color=#006300>Lechuga, Manzanas, Zanahorias</color>, Verduras y Frutas, Trigo",
+                                        "c3": "-"
+                                    },
+                                    "row5": {
+                                        "c1": "Caballos",
+                                        "c2": "<color=#006300>Manzanas, Zanahorias</color>, Verduras y Frutas",
+                                        "c3": "Tomates, Pan, Trigo"
+                                    },
+                                    "row6": {
+                                        "c1": "Gallinas",
+                                        "c2": "<color=#006300>Gusanos, Maíz, Trigo, Ajíes</color>",
+                                        "c3": "Harina"
+                                    },
+                                    "row8": {
+                                        "c1": "Caninos",
+                                        "c2": "<color=#006300>Carne y Pescado</color>, Huevos, Gusanos",
+                                        "c3": "Tocino, Manteca"
+                                    },
+                                    "text2": "Nota: ¡Las papas crudas y los dulces son nocivos para la mayoría de los animales!"
+                                },
+                                "header": "Alimentación de animales",
+                                "text1": "Podés alimentar a los animales con la mano o dejar la comida en el suelo."
+                            },
+                            "animals_products": {
+                                "header": "Productos animales",
+                                "image1": {
+                                    "label": "La leche se puede convertir en manteca. Usá una <u>mantequera</u> para hacerlo"
+                                },
+                                "productstable": {
+                                    "row0": {
+                                        "c1": "Animal",
+                                        "c2": "Producto",
+                                        "c3": "Requisitos"
+                                    },
+                                    "row1": {
+                                        "c1": "Vacas",
+                                        "c2": "Leche",
+                                        "c3": "¡solo después del embarazo!"
+                                    },
+                                    "row2": {
+                                        "c1": "Ovejas",
+                                        "c2": "Lana",
+                                        "c3": "requiere tijeras"
+                                    },
+                                    "row3": {
+                                        "c1": "Gallinas",
+                                        "c2": "Huevos",
+                                        "c3": "-"
+                                    }
+                                },
+                                "text1": "Este es un resumen de los productos especiales que podés obtener de los animales.\n\nTené en cuenta: ¡También podés obtener carne y pieles/cueros de todos los animales, pero esto requiere matar y destripar al animal!"
+                            },
+                            "animals_taming": {
+                                "header": "Domesticación de animales",
+                                "image1": {
+                                    "label": "Acariciar fortalece el vínculo con el animal"
+                                },
+                                "image2": {
+                                    "label": "El camino al corazón de un animal es a través de su estómago"
+                                },
+                                "text1": "Una vez domesticados, los animales se vuelven confiados y pierden su agresividad hacia el jugador.\n\nPodés domesticar un animal <u>alimentándolo</u> regularmente (preferiblemente con su comida favorita), pero <u>acariciarlo</u> regularmente también ayuda.\n\nPara acariciar a un animal, primero guardá el objeto equipado ({UnequipItem}), luego mirá al animal y mantené presionado {SecondaryAction}.\n\nPodés domesticar a todos los animales domésticos, y si tenés mucho cuidado, también podés domesticar lobos."
+                            },
+                            "breeding": "Cría de animales",
+                            "catching": "Captura de animales",
+                            "feeding": "Alimentación de animales",
+                            "header": "Ganadería",
+                            "pets": "Mascotas",
+                            "products": "Productos animales",
+                            "taming": "Domesticación de animales"
                         },
                         "page_firststeps1": {
                             "header": "I. Primeros pasos",
@@ -6458,6 +6878,7 @@
                             "text3": "Otra estación especial es el <b>molino</b>. Permite triturar ciertos recursos. \n\nPor ejemplo, podés convertir <u>carbón</u> o <u>azufre</u> en polvo, piedra en grava o <u>trigo</u> en <u>harina</u>. \n\nTambién convierte <u>tela</u> en <u>trapos</u>, necesarios para fabricar papel en la <b>prensa de papel</b>."
                         },
                         "page_index": {
+                            "animals": "Cría de animales",
                             "building": "Construcción",
                             "close": "X",
                             "crafting": "Estaciones de crafteo",
@@ -6740,12 +7161,174 @@
                 "topmenucontainer": {
                     "buttoncontainer": {
                         "homebutton": "Inicio",
+                        "modsbutton": "Mods",
                         "multiplayerbutton": "Multijugador",
                         "profilebutton": "Personaje",
                         "settingsbutton": "Opciones",
                         "singleplayerbutton": "Un jugador"
                     },
                     "quitbutton": "Salir"
+                }
+            }
+        },
+        "minigame": {
+            "lightcycles": {
+                "board": {
+                    "gameover": {
+                        "backtomenu": "Volver al menú",
+                        "restart": "Jugar de nuevo"
+                    },
+                    "score": {
+                        "computer": "Computadora: {0}",
+                        "draw": "Empates: {0}",
+                        "player": "Jugador: {0}"
+                    }
+                },
+                "menu": {
+                    "difficulty": {
+                        "easy": "Fácil",
+                        "hard": "Difícil",
+                        "medium": "Medio"
+                    },
+                    "quit": "Salir"
+                },
+                "status": {
+                    "draw": "¡Empate!",
+                    "lose": "¡Gana la computadora!",
+                    "ready": "Preparate...",
+                    "win": "¡Ganaste!"
+                }
+            },
+            "tictactoe": {
+                "board": {
+                    "gameover": {
+                        "backtomenu": "Volver al menú",
+                        "restart": "Jugar de nuevo"
+                    },
+                    "score": {
+                        "computer": "Computadora: {0}",
+                        "draw": "Empates: {0}",
+                        "player": "Jugador: {0}"
+                    }
+                },
+                "menu": {
+                    "difficulty": {
+                        "easy": "Fácil",
+                        "hard": "Difícil",
+                        "medium": "Medio"
+                    },
+                    "quit": "Salir"
+                },
+                "status": {
+                    "draw": "¡Empate!",
+                    "lose": "¡Gana la computadora!",
+                    "thinking": "La computadora está pensando...",
+                    "win": "¡Ganaste!",
+                    "yourturn": "Es tu turno (X)"
+                }
+            }
+        },
+        "mods":{
+            "plugins": {
+				"noplugins": "No hay plugins instalados",
+				"statusdisabled": "Los plugins están deshabilitados",
+				"statusenabled": "Los plugins están habilitados"
+			},
+            "screen": {
+                "modscontainer": {
+                    "contentcontainer": {
+                        "pluginspanel": {
+                            "pluginsfootercontainer": {
+                                "openpluginsfolderbutton": "Abrir carpeta de Plugins"
+                            },
+                            "pluginsheaderlabel": "Plugins",
+                            "pluginshintlabel": "Los plugins se cargan desde la carpeta \"Plugins\" en el directorio del juego"
+                        },
+                        "texturepackspanel": {
+                            "packdetailcontainer": {
+                                "activatehintcontainer": {
+                                    "activatehintlabel": "Este paquete de texturas no está activo: los cambios se guardan en el paquete y se vuelven visibles en el juego una vez que se active"
+                                },
+                                "gridheadercontainer": {
+                                    "gridheaderlabel": "Seleccioná una textura para reemplazar"
+                                },
+                                "tabcontainer": {
+                                    "constructionstabbutton": "Construcciones",
+                                    "glasstabbutton": "Vidrio",
+                                    "terraintabbutton": "Terreno"
+                                }
+                            },
+                            "packlistcontainer": {
+                                "packbuttonrow1": {
+                                    "deletepackbutton": "Eliminar",
+                                    "duplicatepackbutton": "Duplicar",
+                                    "newpackbutton": "Nuevo",
+                                    "renamepackbutton": "Renombrar"
+                                },
+                                "packbuttonrow2": {
+                                    "activatepackbutton": "Activar",
+                                    "exportpackbutton": "Exportar",
+                                    "importpackbutton": "Importar"
+                                },
+                                "packlistheaderlabel": "Paquetes de texturas"
+                            }
+                        }
+                    },
+                    "navcontainer": {
+                        "headercontainer": {
+                            "navheaderlabel": "Mods"
+                        },
+                        "navbuttoncontainer": {
+                            "pluginsnavbutton": {
+                                "label": "Plugins"
+                            },
+                            "texturepacksnavbutton": {
+                                "label": "Paquetes de texturas"
+                            }
+                        }
+                    }
+                },
+                "texturedetailoverlay": {
+                    "detailpanel": {
+                        "detailfootercontainer": {
+                            "detailconfirmbutton": "Aceptar"
+                        }
+                    }
+                }
+            },
+            "texturepacks": {
+                "activate": "Activar",
+                "activebadge": "ACTIVO",
+                "applyindicator": "Aplicando texturas...",
+                "deactivate": "Desactivar",
+                "detail": {
+                    "replace": "Reemplazar...",
+                    "revert": "Revertir",
+                    "sliceinfo": "Ranura de textura #{0}",
+                    "sliceinfoshared": "Ranura de textura #{0} · También usada por: {1}",
+                    "vanilla": "Textura por defecto"
+                },
+                "filebrowser": {
+                    "header": "Seleccioná un archivo de imagen (PNG/JPG)"
+                },
+                "message": {
+                    "deletepack": "¿Realmente querés eliminar este paquete de texturas? ¡Esto no se puede deshacer!",
+                    "deletepackheader": "¿Eliminar \"{0}\"?",
+                    "exportnotimplemented": "El paquete \"{0}\" se exportará como un único archivo aquí, que se puede compartir con otros jugadores. No disponible en esta vista previa todavía",
+                    "importnotimplemented": "Se puede importar un archivo de paquete de texturas aquí. No disponible en esta vista previa todavía",
+                    "newpack": "Ingresá un nombre para el nuevo paquete de texturas",
+                    "newpackheader": "Nuevo paquete de texturas",
+                    "notimplementedheader": "Aún no disponible",
+                    "renamepack": "Ingresá un nuevo nombre para el paquete de texturas",
+                    "renamepackheader": "Renombrar paquete de texturas"
+                },
+                "newpackname": "Nuevo paquete de texturas",
+                "packinfo": "por {0} · {1} texturas reemplazadas",
+                "type": {
+                    "albedo": "Albedo (Color)",
+                    "emission": "Emisión (Brillo)",
+                    "normal": "Mapa de normales",
+                    "opacity": "Opacidad"
                 }
             }
         },
@@ -7119,6 +7702,7 @@
                 "customambiencewindvolume": "Ambiente (Viento)",
                 "customfirevolume": "Fuego",
                 "custominteractionvolume": "Ítems / Objetos",
+                "custominventoryvolume": "Sonidos de inventario",
                 "customitemobjectvolume": "Ítems / Objetos",
                 "custommusicplayersvolume": "Reproductores de música",
                 "customnpcfootstepvolume": "Pisadas (NPC)",
@@ -7142,6 +7726,7 @@
                     "customambiencevolume": "Volumen de los sonidos ambientales (aves, etc.)",
                     "customambiencewindvolume": "Volumen del sonido del viento",
                     "customfirevolume": "Volumen del fuego (fogatas, hornos, etc.)",
+                    "custominventoryvolume": "Volumen de sonidos de arrastrar y soltar en el inventario",
                     "custommusicplayersvolume": "Volumen de reproductores de música del mundo (como el gramófono)",
                     "customnpcvolume": "Volumen de los sonidos de NPC (por ejemplo, animales)",
                     "customplayereatingvolume": "Volumen de todos los sonidos de comer del jugador",
@@ -7285,10 +7870,12 @@
                 "zoomtoggle": "Zoom (Alternar)"
             },
             "gamepad": {
+                "adaptjoystick": "Adapta el joystick como mando de juegos",
                 "analogdeadzone": "Zona muerta analógica",
                 "enabled": "Controlador activado",
                 "general": "General",
                 "invert": "Invertir eje Y",
+                "joystick": "Joystick",
                 "mapping": "Asignación de botones",
                 "onscreenkeyboardsize": "Tamaño del teclado en pantalla",
                 "osk": {
@@ -7300,12 +7887,13 @@
                 "sensitivityaim": "Sensibilidad del mando (apuntar)",
                 "textinput": "Entrada de texto",
                 "tooltips": {
-                    "analogdeadzone": "Las entradas analógicas por debajo de este umbral serán ignoradas.\n<color=yellow>Valor predeterminado: 15%</color>",
-                    "defaultvalue": "Valor predeterminado: {0}",
-                    "gamepadinvert": "Si está activado, el eje Y del analógico se invertirá",
-                    "onscreenkeyboardsize": "Determina el tamaño del teclado en pantalla (que aparece al ingresar texto)",
-                    "relativetobasesensitivity": "(relación con la sensibilidad de la base)",
-                    "rumbleintensity": "Determina la intensidad de la vibración (que sólo ocurre en ciertas situaciones). Establecer en 0 para desactivar la vibración"
+                    "adaptjoystick": "Si está activado, los dispositivos joystick genéricos actúan como gamepads virtuales.\n\nUsá esta opción si tu gamepad es reconocido como joystick.",
+                    "analogdeadzone": "La entrada analógica por debajo de este umbral será ignorada.\n<color=yellow>Valor por defecto: 15%</color>",
+                    "defaultvalue": "Valor por defecto: {0}",
+                    "gamepadinvert": "Si está activado, el eje Y analógico se invertirá",
+                    "onscreenkeyboardsize": "Determina el tamaño del teclado en pantalla (que aparece para la entrada de texto)",
+                    "relativetobasesensitivity": "(relativo a la sensibilidad base)",
+                    "rumbleintensity": "Determina la intensidad de la vibración (que solo ocurre en ciertas situaciones). Establecelo en 0 para desactivar la vibración"
                 }
             },
             "graphics": {
@@ -7320,6 +7908,7 @@
                     "taa": "TAA"
                 },
                 "antialiasingmode": "Anti-Aliasing",
+                "blocks": "Bloques",
                 "borderless": "Pantalla completa sin bordes",
                 "chunk": "Chunk",
                 "chunks": "Chunks",
@@ -7346,11 +7935,17 @@
                 "graphicsqualitypreset": "Preajuste gráfico",
                 "grass": "Pasto",
                 "grassocclusion": "Oclusión del pasto",
+                "infiniteocean": "Océano infinito",
                 "keepdistantbuildingsvisible": "Mantener edificios distantes visibles",
                 "lighteffects": "Habilitar efectos de luz",
                 "lighting": "Iluminación",
                 "lodbias": "Sesgo LOD",
                 "lodfade": "Transición suave LOD",
+                "lodfademodes": {
+					"animated": "Animado",
+					"dithered": "Difuminado",
+					"off": "Apagado"
+				},
                 "maxdebris": "Cantidad máxima de escombros",
                 "maxlightdistance": "Distancia máxima de iluminación",
                 "maxlights": "Cantidad máxima de luces",
@@ -7358,6 +7953,7 @@
                 "motionblur": "Desenfoque de movimiento",
                 "motionblurcamera": "Movimiento de cámara",
                 "motionblurintensity": "Intensidad del desenfoque de movimiento",
+                "npcfur": "Piel animal",
                 "postprocessing": "Postprocesado",
                 "quality": "Calidad",
                 "raytracing": "Raytracing",
@@ -7380,6 +7976,7 @@
                 "taastrength": "Fuerza del enfoque TAA",
                 "terraindistanceblend": "Mezcla de distancia del terreno",
                 "terrainheightblend": "Mezcla de alturas del terreno",
+                "tessellation": "Teselación",
                 "texturequality": "Calidad de texturas",
                 "texturequalityconstructions": "Calidad de texturas (construcciones)",
                 "texturequalityterrain": "Calidad de texturas (terreno)",
@@ -7401,6 +7998,7 @@
                     "framelimiter": "Limita los FPS máximos",
                     "gpuresidentdrawer": "Activa/desactiva GPU Resident Drawer de Unity. Habilitarlo mejora rendimiento, pero si da problemas podés desactivarlo",
                     "grassocclusion": "Evita que el pasto sea visible a través de objetos",
+                    "infiniteocean": "Cuando está habilitado, un océano infinito (falso) siempre es visible en el horizonte. No es exacto, pero generalmente ofrece una vista más agradable",
                     "keepdistantbuildingsvisible": "Los edificios permanecerán visibles aun más allá de la distancia de renderizado",
                     "lodbias": "Determina cuánto tiempo los modelos de alta calidad permanecen visibles según la distancia.\nValores bajos muestran modelos LOD más pronto",
                     "lodfade": "Si está activado, el cambio entre niveles LOD será suave",
@@ -7409,6 +8007,8 @@
                     "monitor": "Selecciona qué monitor usar",
                     "motionblur": "Si no te gusta el Motion Blur, podés desactivar solo \"Movimiento de cámara\"",
                     "motionblurcamera": "Si está activado, el desenfoque afecta al movimiento de cámara además de objetos",
+                    "npcfur": "Determina si los animales deben tener pelaje (es decir, “esponjosos”). Esto se nota más cuando estás cerca de un animal, pero tiene un costo de rendimiento",
+                    "npcfurhelp": "Nota: Es recomendable utilizar esta opción sólo con DLSS o FSR",
                     "performance": {
                         "big": "Alto",
                         "huge": "Muy alto",
@@ -7418,34 +8018,39 @@
                         "none": "Ninguno",
                         "small": "Bajo"
                     },
-                    "refractions": "Determina si vidrio o agua aplican refracción/distorsión",
-                    "resolution": "Resolución de la ventana. Para mejores resultados, igualar la resolución del escritorio",
+                    "resolution": "Resolución de la ventana del juego. Para mejores resultados, establecé la resolución igual a la de tu escritorio",
                     "resolutionlabel": "Resolución del escritorio: {0}x{1}",
-                    "resolutionscale": "Permite renderizar a menor resolución sin cambiar la resolución real.\n<color=yellow>Reducir solo en caso de bajo rendimiento</color>",
-                    "roughrefractions": "Habilita refracciones borrosas (como vidrio esmerilado)",
-                    "screenspacereflections": "Reflejos básicos basados en lo visible en pantalla",
-                    "shadowquality": "Calidad general de sombras (resolución del mapa de sombras)",
-                    "shadows": "Define si las luces proyectan sombras",
-                    "shadowsgrass": "Define si el pasto proyecta sombras",
-                    "shadowsterrain": "Define si el terreno proyecta sombras (recomendado activado)",
-                    "softparticles": "Bordes suaves en partículas cuando cruzan objetos",
-                    "supersampling": "Configura un filtro de supermuestreo/escalado",
-                    "terraindistanceblend": "Mejora cómo se ven las texturas del terreno a distancia",
-                    "terrainheightblend": "Mezcla texturas del terreno basadas en su altura\nDesactivar aplica un simple interpolado lineal",
-                    "texturequality": "Calidad global de texturas (bajar solo si falta VRAM)",
-                    "texturequalityconstructions": "Calidad de texturas de construcciones (alto impacto en VRAM)",
-                    "texturequalityterrain": "Calidad de texturas del terreno (alto impacto en VRAM)",
-                    "viewdistance": "Distancia de detalle para pasto y chunks detallados",
-                    "viewdistancebuildings": "Distancia de vista para edificios",
-                    "viewdistancelod": "Distancia total de renderizado",
-                    "volumetricclouds": "Renderiza nubes volumétricas 3D",
-                    "volumetriccloudsquality": "Calidad de nubes volumétricas (alto impacto en rendimiento)",
-                    "volumetriclightfilter": "Aplica un suavizado a luces volumétricas",
-                    "volumetriclights": "Habilita luces volumétricas (god rays)",
-                    "vsync": "Sincroniza FPS con la frecuencia del monitor",
-                    "waterupdateinterval": "Frecuencia de cálculo del flujo del agua por segundo (alto impacto en rendimiento con valores altos)",
-                    "wind": "Calidad del viento"
+                    "resolutionscale": "Bajar este valor permite renderizar el juego a una resolución menor sin cambiar la resolución real.\n\n<color=yellow>¡Solo deberías bajar el valor si tenés problemas de rendimiento!</color>",
+                    "roughrefractions": "Determina si se habilita la refracción borrosa / rugosa (p. ej. en vidrio lechoso)",
+                    "screenspacereflections": "Reflejos básicos. Solo pueden reflejar objetos que actualmente se ven en pantalla. Es especialmente útil para reflejos pequeños, como charcos de agua",
+                    "shadowquality": "Determina la calidad general de las sombras, es decir, la resolución de los mapas de sombras",
+                    "shadows": "Determina si las luces proyectan sombras",
+                    "shadowsgrass": "Determina si el pasto proyecta sombras",
+                    "shadowsterrain": "Determina si el terreno proyecta sombras. Se recomienda mantener esta opción activa",
+                    "softparticles": "Si está activado, las partículas tienen bordes suaves al intersectarse con objetos",
+                    "supersampling": "Establece un filtro de supermuestreo / escalado. Esto puede mejorar mucho el rendimiento",
+                    "terraindistanceblend": "Si está activado, las texturas del terreno se verán mucho mejor a distancia",
+                    "terrainheightblend": "Si está activado, diferentes texturas en el terreno se mezclarán teniendo en cuenta su altura.\nSi está desactivado, habrá solo una interpolación lineal básica entre texturas",
+                    "tessellation": "Agrega profundidad física y relieve al terreno. Requiere una tarjeta gráfica potente",
+                    "texturequality": "Determina la calidad global de las texturas. Solo reducí este valor si no tenés suficiente VRAM",
+                    "texturequalityconstructions": "Determina la calidad de textura de edificios y elementos de construcción. ¡Advertencia: valores altos aumentan significativamente el uso de VRAM!",
+                    "texturequalityterrain": "Determina la calidad de textura del terreno. Advertencia: valores altos aumentan el uso de VRAM",
+                    "underwatergodrays": "Muestra haces de luz solar animados al bucear cerca de la superficie del agua. Se desvanecen con la profundidad",
+                    "viewdistance": "Determina la distancia de vista detallada para el pasto y los sectores detallados",
+                    "viewdistancebuildings": "Determina la distancia de vista para edificios y construcciones",
+                    "viewdistancelod": "Determina la distancia de vista total",
+                    "volumetricclouds": "Si está activado, el juego renderizará nubes 3D volumétricas en el mundo",
+                    "volumetriccloudsquality": "Determina la calidad de renderizado de las nubes volumétricas. Se nota más si estás a la altura de las nubes o por encima de ellas; de lo contrario, un ajuste medio suele ser suficiente.\n\nTené en cuenta que los ajustes de alta calidad tienen un impacto considerable en el rendimiento",
+                    "volumetriclightfilter": "Si está activado, se aplicará un filtro de suavizado a las luces volumétricas",
+                    "volumetriclights": "Determina si las luces volumétricas (como los rayos de sol) deben ser visibles",
+                    "vsync": "Limita los fotogramas a la tasa de refresco de tu monitor para prevenir el \"tearing\".\nEsto puede tener un impacto en el rendimiento",
+                    "waterlinequality": "Determina qué tan precisamente el juego debe calcular la línea de agua al estar sumergido",
+                    "waterupdateinterval": "Determina con qué frecuencia el juego debe recalcular el flujo de agua por <b>segundo</b>. <u>Valores más altos tienen mayor impacto en el rendimiento</u>",
+                    "waterwakeeffect": "Determina si los botes y otros elementos en movimiento deben dejar una estela en el agua.\n\nPuede causar problemas de rendimiento en tarjetas gráficas antiguas.",
+                    "waterwaves": "Determina si el juego debe calcular olas 3D reales en el agua",
+                    "wind": "Determina el modo de viento"
                 },
+                "underwatergodrays": "Rayos solares submarinos",
                 "upscaler": {
                     "dlss": "NVIDIA DLSS",
                     "fsr1": "AMD FSR 1.0 (Legacy)",
@@ -7489,6 +8094,7 @@
                 },
                 "viewdistance": "Detalles de distancia de vista",
                 "viewdistancebuildings": "Distancia de vista (edificios)",
+                "viewdistanceitems": "Ver elementos de distancia",
                 "viewdistancelod": "Distancia total de vista",
                 "volumetricclouds": "Nubes volumétricas",
                 "volumetriccloudsquality": "Calidad de nubes volumétricas",
@@ -7511,10 +8117,14 @@
                     "05": "0.5x"
                 },
                 "waterheader": "Agua (experimental)",
+                "waterlinequality": "Calidad de línea de agua (buceo)",
                 "waterupdateinterval": "Intervalo de actualización del agua",
+                "waterwakeeffect": "Efecto de estela en el agua",
+                "waterwaves": "Olas en el agua",
                 "wind": "Calidad del viento",
-                "windowed": "En ventana"
+                "windowed": "Ventana"
             },
+            "lockedsetting": "No puedes cambiar esta configuración mientras se carga un mundo",
             "misc": {
                 "allowconsolecommands": "Permitir comandos de consola",
                 "allowflymode": "Permitir modo vuelo (solo en supervivencia)",
@@ -7531,6 +8141,7 @@
                     "sortfolderslast": "Carpetas al final"
                 },
                 "blueprintsortmode": "Planos: Orden de clasificación",
+                "blueprintsrequireresources": "Planos: Requieren recursos (Supervivencia)",
                 "blueprintvisualizebounds": "Planos: Visualizar límites",
                 "buildingdefaultsize": "Tamaño predeterminado del elemento",
                 "buildinggridmode": "Modo de cuadrícula",
@@ -7538,14 +8149,26 @@
                     "default": "Predeterminado",
                     "legacy": "Legado"
                 },
+                "buildinggridstyle": "Estilo de cuadrícula",
+				"buildinggridstyles": {
+					"alllines": "Todas las líneas",
+					"reduced": "Reducido"
+				},
                 "buildinginformationopacity": "HUD: Opacidad del fondo de información de construcciones",
                 "buildingmultiplacedirections": "Direcciones de colocación en fila",
                 "buildingpivotkeeprotation": "Modo de ajuste: Conservar rotación",
                 "buildingpivotsnaptoalltypes": "Modo de ajuste: Ajustar objetos a bloques",
+                "buildingpreviewmode": "Estilo de vista previa de bloque",
+                "buildingpreviewmodes": {
+					"plain": "Simple",
+					"textured": "Texturizado",
+					"wireframe": "Estructura alámbrica"
+				},
                 "buildingresizemode": "Modo de redimensionamiento",
                 "buildingresizemodes": {
                     "default": "Predeterminado",
-                    "legacy": "Legado"
+                    "legacy": "Clásico",
+                    "raw": "Libre"
                 },
                 "buildingsnaprotation": "Ajuste al rotar",
                 "cacheicons": "Cachear iconos",
@@ -7575,6 +8198,7 @@
                     "advanced": "Modo avanzado",
                     "basic": "Modo básico"
                 },
+                "fooddespawntime": "Tiempo de desaparición de alimentos",
                 "gravityobjects": "Habilitar gravedad para objetos",
                 "gravityplants": "Habilitar gravedad para plantas",
                 "headbobbing": "Cabeceo",
@@ -7585,6 +8209,7 @@
                 "headergeneral": "General",
                 "headerimages": "Imágenes / Posters",
                 "headermultiplayer": "Multijugador",
+                "headernpcs": "NPC / Animales",
                 "headerscreenshots": "Capturas de pantalla",
                 "headersingleplayer": "Un jugador",
                 "headersteam": "Steam",
@@ -7608,9 +8233,17 @@
                 "moonbrightness": "Brillo de la luna",
                 "moonphases": "Fases lunares activas",
                 "mountsfollowviewdirection": "Monturas: Seguir dirección de vista",
+                "npchungerdurationfactor": "Animales: Duración del hambre",
+                "npchungerenabled": "Animales: Hambre activada",
+                "npcpausehungerifinactive": "Animales: Pausar hambre si inactivos",
+                "npcpausestarvationifinactive": "Animales: Pausar inanición si inactivos",
+                "npcstarvationdurationfactor": "Animales: Duración de la inanición",
+                "npcstarvationenabled": "Animales: Inanición activada",
                 "oresmeltingduration": "Duración de fundición de minerales",
+                "outline": "Mostrar esquema del elemento",
                 "pauseinmenu": "Pausar juego en menú",
                 "peacefulmode": "Modo pacífico",
+                "pickupoutline": "Resaltar elementos (esquema)",
                 "plantgrowthduration": "Duración del crecimiento de plantas",
                 "playergroupmarkeropacity": "Opacidad de marcadores de grupo",
                 "playergroupmarkershowoffscreen": "Marcadores de grupo fuera de pantalla",
@@ -7672,8 +8305,11 @@
                     "alwaysshowgridonterrain": "Si está activado, la cuadrícula SIEMPRE será visible en el terreno",
                     "blueprintincludeair": "Si está activado, el aire también será colocado por los planos (solo si el plano incluye terreno)",
                     "blueprintsortmode": "Determina cómo serán ordenados/mostrados los planos",
+                    "blueprintsrequireresources": "Determina si colocar planos requiere los recursos correspondientes en el inventario (o en un cofre cercano)",
                     "blueprintvisualizebounds": "Si está activado, los límites del plano serán visualizados mientras se coloca",
+                    "buildingblockselectorpreviewstyle": "Determina el estilo del elemento de previsualización del bloque de construcción.\n\n<color=yellow>Simple: El bloque se muestra como un elemento transparente de un solo color</color>\n\n<color=orange>Texturizado: Se muestra la textura en el bloque</color>",
                     "buildingdefaultsize": "Establece un tamaño predeterminado opcional para los nuevos elementos de construcción. Determina el tamaño en los ejes X, Y y Z, separados por espacios.\n<color=yellow>Ejemplo: \"1.0  2.0  0.1\"</color>",
+                    "buildinggridstyle": "Determina qué líneas de la cuadrícula se muestran.\n\n<color=yellow>Todas las líneas</color> - muestra todas las líneas\n\n<color=yellow>Reducido</color> - en caras diagonales, solo se muestran las líneas dominantes",
                     "buildingmultiplacedirections": "Número de direcciones simultáneas permitidas al colocar múltiples elementos de construcción en fila",
                     "buildingpivotkeeprotation": "Si está activado, el juego ya no reinicia la rotación del elemento después de colocarlo mientras el modo de pivote está activo",
                     "buildingpivotsnaptoalltypes": "Determina si los objetos (como muebles, puertas, etc.) también deben ajustarse a los bloques cuando el ajuste al punto de pivote esté activado",
@@ -7691,6 +8327,7 @@
                     "flymodemovetype": "Determina cómo funciona el movimiento mientras se vuela.\n\n<color=yellow>Predeterminado: Volar hacia la dirección de la vista</color>\n\n<color=orange>Mantener elevación: Mantener la altitud</color>",
                     "flymodenoclipping": "Si está activado, podés atravesar paredes y terreno en modo vuelo. De lo contrario, estas cosas seguirán teniendo colisión",
                     "flymodespeedcontrol": "Determina cómo se ajusta la velocidad en modo vuelo.\n\n<color=yellow>Modo básico: Mantener presionado correr o caminar para volar más rápido/lento</color>\n\n<color=orange>Modo avanzado: Usar Shift + Scroll para cambiar la velocidad</color>",
+                    "fooddespawntime": "Duración separada solo para objetos de comida. Esto es relevante si, por ejemplo, tirás comida al suelo para los animales",
                     "gravityobjects": "Si está activado, los objetos flotantes (como muebles) se rompen si no tienen contacto con paredes sólidas o el suelo",
                     "gravityplants": "Si está activado, las plantas flotantes se rompen si no tienen contacto con el suelo",
                     "healthregeneration": "Determina si la salud debería regenerarse automáticamente (si el jugador no tiene hambre ni sed)",
@@ -7700,14 +8337,23 @@
                     "hungerthirstduration": "Factor de duración hasta que el jugador tenga hambre/sed.\n\nEl valor predeterminado es 100%. Valores más bajos hacen que el jugador tenga hambre/sed más a menudo",
                     "imagemaxresolution": "Determina la resolución máxima permitida para imágenes personalizadas/carteles. ¡Los cambios solo afectan a las imágenes subidas posteriormente!\n\nNota: Las resoluciones altas consumen más memoria gráfica y afectan el rendimiento",
                     "instantdigging": "Si está activado, todo se rompe con un solo golpe en modo supervivencia (similar al modo creativo)",
+                    "itemdespawntime": "Determina cuánto tiempo tarda en desaparecer un objeto (que fue tirado al suelo).\n\n¡Esto no afecta a los objetos que fueron colocados de forma persistente!",
                     "itemdurability": "Determina la durabilidad de los objetos (es decir, cuánto tardan en romperse). El valor predeterminado es 100%. Establecer en 50% reduce a la mitad la duración, 200% la duplica, etc.\n\n<color=yellow>Para desactivar la durabilidad de objetos, establecer en 0</color>",
                     "keepinventory": "Si está activado, conservarás tu inventario después de morir",
                     "moonbrightness": "Un factor de brillo aplicado a las noches y a la luz de la luna. Valor predeterminado: 100%",
                     "moonphases": "Determina si las fases lunares deben estar activas. Desactívalo si siempre quieres una luna llena (brillante)",
                     "mountsfollowviewdirection": "Si está activado, las monturas seguirán automáticamente la dirección de tu vista al montarlas",
+                    "npchungerdurationfactor": "Determina la velocidad con la que los animales sienten hambre.\n\nEl valor por defecto es 100%. Valores menores hacen que el animal sienta hambre <u>más rápido</u>.",
+                    "npchungerenabled": "Si está activado, los animales sentirán hambre con el tiempo y necesitarán comer algo",
+                    "npcpausehungerifinactive": "Si está activado, los animales ya no sentirán hambre si no hay ningún jugador cerca",
+                    "npcpausestarvationifinactive": "Si está activado, los animales aún pueden sentir hambre, pero ya no <u>morirán de inanición</u> (es decir, recibirán daño) si no hay ningún jugador cerca",
+                    "npcstarvationdurationfactor": "Determina cuánto tiempo tarda un animal en morir de inanición.\n\nEl valor por defecto es 100%. Valores menores hacen que el animal muera de inanición <u>más rápido</u>.",
+                    "npcstarvationenabled": "Determina si los animales pueden morir de inanición o no",
                     "oresmeltingduration": "Determina el factor de duración para fundir minerales en un horno. Predeterminado 100%. 50% reduce a la mitad la duración, 200% la duplica",
+                    "outline": "Si está habilitado, los elementos activos y los elementos sobre los que se pase el cursor mostrarán un pequeño contorno, lo que los hará más visibles",
                     "pauseinmenu": "Si está activado, el juego se pausa cuando el menú está abierto (solo un jugador)",
                     "peacefulmode": "Si está activado, los enemigos ya no te atacan (a menos que los ataques primero)",
+                    "pickupoutline": "Cuando esta opción está habilitada, aparece un contorno alrededor de los objetos y las plantas coleccionables al mirarlos (para resaltarlos)",
                     "plantgrowthduration": "Determina el factor de duración del crecimiento de las plantas.\nValor predeterminado 100%. 50% reduce a la mitad el tiempo, 200% lo duplica",
                     "playergroupmarkeropacity": "Determina la opacidad de los marcadores de grupo de jugadores (visibles si invitas a otro jugador a tu grupo)",
                     "playergroupmarkershowoffscreen": "Si es true, los marcadores de grupo seguirán visibles incluso si están fuera de la pantalla",
