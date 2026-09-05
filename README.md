@@ -1,10 +1,9 @@
 # Rising World – Español (es-ES)  
-![Game Version](https://img.shields.io/badge/game%20version-0.9.2%20Animal%20Breeding,%20Item%20Placement,%20better%20Controller%20Support-blue)
+![Game Version](https://img.shields.io/badge/game%20version-0.9.3%20Animal%20Feeding%20and%20Taming,%20better%20caves%20and%20much%20more!-blue)
 ![Language](https://img.shields.io/badge/language-Espa%C3%B1ol-red)
 
- 
 ¡Hola!  
-Este repositorio **ya trae todo listo** para jugar **Rising World** en **español de España (es-ES)** hasta la actualización **0.9.2: Animal Breeding, Item Placement, better Controller Support**.
+Este repositorio **ya trae todo listo** para jugar **Rising World** en **español de España (es-ES)** hasta la actualización **0.9.3: Animal Feeding and Taming, better caves and much more!**.
 
 > ¿Es tu primera vez? 😏  
 > ¡Es súper fácil! Solo descomprimís y pegás en la carpeta del juego.
